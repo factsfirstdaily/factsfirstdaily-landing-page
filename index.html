@@ -30,15 +30,16 @@ h1{font-size:clamp(44px,6.4vw,77px);letter-spacing:-3.5px;line-height:1.04;color
 h1 span{color:var(--red)}
 .lead{font-size:19px;line-height:1.65;color:var(--muted);max-width:650px;margin:0 auto 28px}
 .signup{max-width:520px;margin:0 auto}
-.signup-button{display:flex;align-items:stretch;width:100%;border:0;padding:0;background:var(--green);color:white;font-size:15px;font-weight:bold;letter-spacing:.3px;min-height:62px;cursor:pointer;box-shadow:5px 5px 0 var(--red);transition:transform .15s ease,box-shadow .15s ease,background .15s ease}
-.signup-button .btn-label{flex:1;display:flex;align-items:center;justify-content:center;gap:12px;padding:18px 24px}
-.signup-button .btn-arrow{display:flex;align-items:center;justify-content:center;width:62px;flex-shrink:0;font-size:20px;background:rgba(255,255,255,.08);border-left:1px solid rgba(255,255,255,.18);transition:background .15s ease}
-.signup-button .btn-badge{font-size:9px;letter-spacing:1.6px;text-transform:uppercase;padding:4px 9px;border:1px solid rgba(255,255,255,.45);border-radius:999px;font-weight:bold}
-.signup-button:not(:disabled) .btn-badge{display:none}
-.signup-button:disabled{opacity:1;cursor:not-allowed}
-.signup-button:not(:disabled):hover{background:var(--bright);transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--red)}
-.signup-button:not(:disabled):hover .btn-arrow{background:rgba(255,255,255,.16)}
-.signup-button:not(:disabled):active{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--red)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.signup-form{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:6px 6px 6px 20px;box-shadow:0 1px 2px rgba(24,43,37,.05),0 10px 28px -14px rgba(24,43,37,.25);transition:border-color .15s ease,box-shadow .15s ease}
+.signup-form:focus-within{border-color:var(--green);box-shadow:0 0 0 4px rgba(18,63,50,.12)}
+.signup-input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;font-size:16px;color:var(--ink);padding:14px 0}
+.signup-input::placeholder{color:#8A968F;opacity:1}.signup-input:disabled{cursor:not-allowed}
+.signup-button{flex-shrink:0;border:0;border-radius:8px;background:var(--green);color:#fff;font-size:15px;font-weight:bold;padding:0 22px;height:50px;cursor:pointer;white-space:nowrap;transition:background .15s ease}
+.signup-button:disabled{opacity:1}.signup-button:not(:disabled):hover{background:var(--bright)}
+.signup-button:focus-visible{outline-offset:3px}
+.final-cta .signup-form{border-color:transparent;box-shadow:0 14px 34px -14px rgba(0,0,0,.5)}
+.final-cta .signup-form:focus-within{box-shadow:0 0 0 4px rgba(255,255,255,.25)}
 .reassurance{font-size:12px;line-height:1.6;color:var(--muted);margin:13px 0 0}
 .signup-status{font-size:11px;color:var(--muted);line-height:1.6;margin:9px 0 0}
 .policy-note{font-size:11px;line-height:1.5;color:var(--muted);margin-top:8px}
@@ -69,17 +70,13 @@ summary{font-weight:bold;font-size:16px;cursor:pointer;line-height:1.5}details p
 .final-cta{background:var(--green);color:white;padding:60px 24px;text-align:center;border-top:5px solid var(--red)}
 .final-cta .eyebrow{color:#D4DDD5}.final-cta h2{color:white;font-size:43px;margin:17px 0}
 .final-cta>p{font-size:16px;color:#D8E2DC;line-height:1.6;max-width:540px;margin:0 auto 27px}
-.final-cta .signup-button{background:white;color:var(--green)}
-.final-cta .signup-button .btn-arrow{background:rgba(18,63,50,.06);border-left-color:rgba(18,63,50,.15)}
-.final-cta .signup-button .btn-badge{border-color:rgba(18,63,50,.35)}
-.final-cta .signup-button:not(:disabled):hover{background:#E2EADF}
 .final-cta .reassurance,.final-cta .signup-status,.final-cta .policy-note{color:#D8E2DC}
 footer{padding:28px 0;font-size:12px;color:var(--muted)}
 .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}.footer-links{display:flex;gap:20px;flex-wrap:wrap}
 [hidden]{display:none!important}
-@media(max-width:760px){.signup-button{box-shadow:4px 4px 0 var(--red);font-size:14px}.signup-button .btn-label{padding:16px 14px;gap:10px}.signup-button .btn-arrow{width:54px}.wrap{padding-left:24px;padding-right:24px}.brand{width:205px}.header-inner{gap:12px}nav{gap:12px}nav .secondary{display:none}nav .nav-cta{padding:11px 13px;font-size:12px}.hero{padding:49px 24px}h1{font-size:51px;letter-spacing:-2.4px}.lead{font-size:17px}.topics{gap:15px;font-size:9px}.topics .label{width:100%;text-align:center}.section{padding-top:43px;padding-bottom:43px}.section-heading{display:block}.section-heading p{margin-top:17px}h2{font-size:32px}.inside-grid,.editions-grid{grid-template-columns:1fr;gap:28px}.inside-item h3{margin-top:12px}.launch-state{grid-template-columns:1fr;gap:15px;padding:25px}.about,.faq{grid-template-columns:1fr;gap:26px}.about-copy p{font-size:16px}.final-cta{padding:44px 24px}.final-cta h2{font-size:35px}.footer-inner{align-items:start;flex-direction:column;gap:17px}}
+@media(max-width:760px){.signup-form{flex-direction:column;align-items:stretch;padding:6px}.signup-input{padding:14px 14px;text-align:center}.signup-button{width:100%}.wrap{padding-left:24px;padding-right:24px}.brand{width:205px}.header-inner{gap:12px}nav{gap:12px}nav .secondary{display:none}nav .nav-cta{padding:11px 13px;font-size:12px}.hero{padding:49px 24px}h1{font-size:51px;letter-spacing:-2.4px}.lead{font-size:17px}.topics{gap:15px;font-size:9px}.topics .label{width:100%;text-align:center}.section{padding-top:43px;padding-bottom:43px}.section-heading{display:block}.section-heading p{margin-top:17px}h2{font-size:32px}.inside-grid,.editions-grid{grid-template-columns:1fr;gap:28px}.inside-item h3{margin-top:12px}.launch-state{grid-template-columns:1fr;gap:15px;padding:25px}.about,.faq{grid-template-columns:1fr;gap:26px}.about-copy p{font-size:16px}.final-cta{padding:44px 24px}.final-cta h2{font-size:35px}.footer-inner{align-items:start;flex-direction:column;gap:17px}}
 @media(max-width:360px){.brand{width:180px}nav .nav-cta{padding:10px}h1{font-size:44px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.signup-button{transition:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.signup-form,.signup-button{transition:none}}
 </style>
 </head>
 <body>
@@ -97,7 +94,7 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
      embed if you want email capture on this page. Do not copy FMD's form,
      /create endpoint, tracking fields, or subscription settings. -->
 <div class="signup">
-<button class="signup-button" type="button" data-signup disabled><span class="btn-label"><span>Subscribe free</span><span class="btn-badge">Soon</span></span><span class="btn-arrow" aria-hidden="true">→</span></button>
+<form class="signup-form" data-signup-form novalidate><label class="sr-only" for="email-hero">Email address</label><input class="signup-input" id="email-hero" type="email" name="fields[email]" placeholder="Enter your email" autocomplete="email" required disabled><button class="signup-button" type="submit" disabled>Subscribe Free</button></form>
 <p class="reassurance">Free to subscribe · Straight to your inbox · Unsubscribe anytime</p>
 <p class="signup-status" data-signup-status role="status">Signups opening soon.</p>
 <p class="policy-note" data-policy-note hidden>Read our <a data-privacy-link>Privacy Policy</a>.</p>
@@ -130,8 +127,8 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
 </section>
 <section class="final-cta" aria-labelledby="final-title">
 <div class="eyebrow">Make room for a clearer read</div><h2 id="final-title">Your next daily habit.</h2><p>A concise briefing, a wider perspective, and more time to get on with your day.</p>
-<div class="signup"><button class="signup-button" type="button" data-signup disabled><span class="btn-label"><span>Get Facts First Daily</span><span class="btn-badge">Soon</span></span><span class="btn-arrow" aria-hidden="true">→</span></button>
-<p class="reassurance">Free to subscribe · Unsubscribe anytime</p><p class="signup-status" data-signup-status>Signups opening soon.</p>
+<div class="signup"><form class="signup-form" data-signup-form novalidate><label class="sr-only" for="email-footer">Email address</label><input class="signup-input" id="email-footer" type="email" name="fields[email]" placeholder="Enter your email" autocomplete="email" required disabled><button class="signup-button" type="submit" disabled>Subscribe Free</button></form>
+<p class="reassurance">Free to subscribe · Unsubscribe anytime</p><p class="signup-status" data-signup-status role="status">Signups opening soon.</p>
 <p class="policy-note" data-policy-note hidden>Read our <a data-privacy-link>Privacy Policy</a>.</p></div>
 </section>
 </main>
@@ -139,16 +136,18 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
 <div class="footer-links"><a href="mailto:hello@factsfirstdaily.com">Contact</a><a id="footer-privacy" hidden>Privacy Policy</a><a id="footer-terms" hidden>Terms</a></div></div></footer>
 <script>
 /* SETUP: Public HTTPS URLs only. Never paste API keys or passwords.
-   Both signup and privacy URLs are required to enable the signup buttons.
-   Hosted mode redirects to MailerLite; it does not collect email locally.
-   Inline email capture needs the official MailerLite embed in the HTML.
+   A privacy URL plus EITHER mailerliteFormAction (copy the form action URL
+   from your official MailerLite embed code) OR mailerliteSignupUrl is
+   required to enable the signup forms. Form action = inline signup;
+   signup URL = redirect to the hosted MailerLite page.
    Add ONLY published Facts First Daily editions, not FMD's posts.
    Example schema for editions (leave [] until real):
    {title: "...", description: "...", url: "https://...",
     date: "2026-11-03", readingTime: "5 min read"}
 */
 const SITE_CONFIG = {
-  mailerliteSignupUrl: "",
+  mailerliteFormAction: "",   // MailerLite embedded form action URL (inline signup)
+  mailerliteSignupUrl: "",    // OR a hosted MailerLite signup page (redirect)
   privacyPolicyUrl: "",
   termsUrl: "",
   archiveUrl: "",
@@ -174,13 +173,30 @@ if (isPublicHttps(SITE_CONFIG.privacyPolicyUrl)) {
   document.querySelectorAll("[data-privacy-link]").forEach(el => { el.href = SITE_CONFIG.privacyPolicyUrl; });
   document.querySelectorAll("[data-policy-note]").forEach(el => { el.hidden = false; });
 }
-if (isPublicHttps(SITE_CONFIG.mailerliteSignupUrl) && isPublicHttps(SITE_CONFIG.privacyPolicyUrl)) {
-  document.querySelectorAll("[data-signup]").forEach(button => {
-    button.disabled = false;
-    button.addEventListener("click", () => { window.location.assign(SITE_CONFIG.mailerliteSignupUrl); });
-  });
-  document.querySelectorAll("[data-signup-status]").forEach(el => {
-    el.textContent = "Continue to our MailerLite signup form.";
+const formAction = isPublicHttps(SITE_CONFIG.mailerliteFormAction) ? SITE_CONFIG.mailerliteFormAction : "";
+const hostedUrl = isPublicHttps(SITE_CONFIG.mailerliteSignupUrl) ? SITE_CONFIG.mailerliteSignupUrl : "";
+if ((formAction || hostedUrl) && isPublicHttps(SITE_CONFIG.privacyPolicyUrl)) {
+  document.querySelectorAll("[data-signup-form]").forEach(form => {
+    const input = form.querySelector("input"), button = form.querySelector("button");
+    const status = form.closest(".signup").querySelector("[data-signup-status]");
+    const label = button.textContent;
+    input.disabled = false; button.disabled = false; status.textContent = "";
+    form.addEventListener("submit", async e => {
+      e.preventDefault();
+      if (!formAction) { window.location.assign(hostedUrl); return; }
+      if (!input.checkValidity() || !input.value.trim()) { status.textContent = "Please enter a valid email address."; input.focus(); return; }
+      button.disabled = true; button.textContent = "Subscribing…"; status.textContent = "";
+      try {
+        const data = new FormData();
+        data.append("fields[email]", input.value.trim()); data.append("ml-submit", "1"); data.append("anonymous", "true");
+        const res = await fetch(formAction, { method: "POST", body: data });
+        const json = await res.json().catch(() => ({}));
+        if (!res.ok || json.success === false) throw new Error();
+        form.reset(); status.textContent = "Thanks! Check your inbox to confirm your subscription.";
+      } catch {
+        status.textContent = "Something went wrong. Please try again in a moment.";
+      } finally { button.disabled = false; button.textContent = label; }
+    });
   });
 }
 const validEditions = Array.isArray(SITE_CONFIG.editions) ? SITE_CONFIG.editions.filter(e =>
