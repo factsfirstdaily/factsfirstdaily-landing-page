@@ -57,10 +57,18 @@ h2{font-size:38px;color:var(--green);letter-spacing:-1.5px;line-height:1.1;margi
 .launch-state{border:1px solid var(--line);border-left:4px solid var(--red);padding:30px 34px;display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center;background:var(--paper)}
 .launch-state h3{font-size:28px;margin:0}.launch-state p{margin:0;font-size:15px;line-height:1.7;color:var(--muted)}
 .editions-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
-.edition{display:block;text-decoration:none;border:1px solid var(--line);padding:25px}
-.edition:hover{border-color:var(--green)}.edition-meta{font-size:11px;color:var(--muted);line-height:1.6}
-.edition h3{line-height:1.2;font-size:23px}.edition p{font-size:14px;color:var(--muted);line-height:1.6}
-.read-link{font-size:12px;font-weight:bold;color:var(--red)}
+.edition{display:flex;flex-direction:column;text-decoration:none;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;transition:border-color .15s ease,box-shadow .15s ease,transform .15s ease}
+.edition:hover{border-color:var(--green);box-shadow:0 14px 30px -18px rgba(18,63,50,.45);transform:translateY(-2px)}
+.edition-cover{position:relative;aspect-ratio:3/2;background:var(--green);background-image:radial-gradient(120% 90% at 50% 0%,#1B5644 0%,var(--green) 60%,#0C2E24 100%);border-top:5px solid var(--red);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:30px 22px 22px;text-align:center;color:#fff;overflow:hidden}
+.edition-cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.edition-tag{position:absolute;top:12px;left:12px;font-size:9px;font-weight:bold;letter-spacing:1.6px;text-transform:uppercase;padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.22);z-index:1}
+.edition-cover-title{font-family:Georgia,"Times New Roman",serif;font-size:20px;line-height:1.22;letter-spacing:.4px;text-transform:uppercase;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.edition-cover-date{font-family:Georgia,"Times New Roman",serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#D4DDD5;padding-top:10px;border-top:1px solid rgba(255,255,255,.25)}
+.edition-body{display:flex;flex-direction:column;flex:1;padding:18px 20px 20px}
+.edition-meta{font-size:11px;color:var(--muted);line-height:1.6}
+.edition h3{line-height:1.25;font-size:20px;margin:8px 0 8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.edition p{font-size:14px;color:var(--muted);line-height:1.6;margin:0 0 14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.read-link{margin-top:auto;font-size:12px;font-weight:bold;color:var(--red)}
 .archive-link{display:inline-block;margin-top:25px;font-size:13px;font-weight:bold;color:var(--green)}
 .about{display:grid;grid-template-columns:1fr 1.35fr;gap:80px}
 .about-copy p{font-size:17px;line-height:1.8;color:var(--muted);margin:0 0 18px}.about-copy p:last-child{margin-bottom:0}
@@ -143,7 +151,8 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
    Add ONLY published Facts First Daily editions, not FMD's posts.
    Example schema for editions (leave [] until real):
    {title: "...", description: "...", url: "https://...",
-    date: "2026-11-03", readingTime: "5 min read"}
+    date: "2026-11-03", readingTime: "5 min read",
+    image: "https://..."  // optional cover image; leave out to auto-generate one}
 */
 const SITE_CONFIG = {
   mailerliteFormAction: "",   // MailerLite embedded form action URL (inline signup)
@@ -207,15 +216,29 @@ if (validEditions.length) {
   const grid = document.getElementById("editions-grid");
   validEditions.slice(0,6).forEach(e => {
     const link = document.createElement("a"); link.className = "edition"; link.href = e.url;
+    const nice = new Date(e.date + "T12:00:00Z");
+    const longDate = nice.toLocaleDateString("en-US", {year:"numeric", month:"long", day:"numeric", timeZone:"UTC"});
+    const cover = document.createElement("div"); cover.className = "edition-cover";
+    const tag = document.createElement("span"); tag.className = "edition-tag"; tag.textContent = "Edition";
+    cover.append(tag);
+    if (isPublicHttps(e.image)) {
+      const img = document.createElement("img"); img.src = e.image; img.alt = ""; img.loading = "lazy"; cover.append(img);
+    } else {
+      const ct = document.createElement("div"); ct.className = "edition-cover-title"; ct.textContent = e.title;
+      const cd = document.createElement("div"); cd.className = "edition-cover-date"; cd.textContent = longDate;
+      cover.append(ct, cd);
+    }
+    const body = document.createElement("div"); body.className = "edition-body";
     const meta = document.createElement("div"); meta.className = "edition-meta";
     const time = document.createElement("time"); time.dateTime = e.date;
-    time.textContent = new Date(e.date + "T12:00:00Z").toLocaleDateString("en-US", {year:"numeric", month:"short", day:"numeric", timeZone:"UTC"});
+    time.textContent = nice.toLocaleDateString("en-US", {year:"numeric", month:"short", day:"numeric", timeZone:"UTC"});
     meta.append(time);
     if (typeof e.readingTime === "string" && e.readingTime) meta.append(document.createTextNode(" · " + e.readingTime));
     const title = document.createElement("h3"); title.textContent = e.title;
     const desc = document.createElement("p"); desc.textContent = typeof e.description === "string" ? e.description : "";
     const read = document.createElement("span"); read.className = "read-link"; read.textContent = "Read edition ↗";
-    link.append(meta, title, desc, read); grid.append(link);
+    body.append(meta, title, desc, read);
+    link.append(cover, body); grid.append(link);
   });
   grid.hidden = false;
   document.getElementById("editions-empty").hidden = true;
