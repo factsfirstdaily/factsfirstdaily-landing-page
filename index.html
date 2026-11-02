@@ -118,7 +118,7 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
 </div>
 </section>
 <section class="editions-section" id="editions" aria-labelledby="editions-title"><div class="wrap section">
-<div class="section-heading"><div><div class="eyebrow">From the newsletter</div><h2 id="editions-title">Recent editions.</h2></div><p>Read at your own pace. Published editions will appear here as the archive grows.</p></div>
+<div class="section-heading"><div><div class="eyebrow">From the newsletter</div><h2 id="editions-title">Recent editions.</h2></div><p>Read at your own pace. New editions will show up here as they're published.</p></div>
 <div class="launch-state" id="editions-empty"><h3>A new daily read<br>is on its way.</h3><p>We're getting the first edition ready. Subscribe to receive it in your inbox when it launches.</p></div>
 <div class="editions-grid" id="editions-grid" hidden></div>
 <a class="archive-link" id="archive-link" hidden>Browse all editions ↗</a>
@@ -212,8 +212,33 @@ const validEditions = Array.isArray(SITE_CONFIG.editions) ? SITE_CONFIG.editions
   e && typeof e.title === "string" && e.title.trim() && isPublicHttps(e.url)
   && /^\d{4}-\d{2}-\d{2}$/.test(e.date) && !Number.isNaN(Date.parse(e.date))
 ) : [];
+const editionsGrid = document.getElementById("editions-grid");
+const PLACEHOLDERS = [
+  {no: "Edition No. 1", desc: "The first Facts First Daily briefing. Subscribe to get it in your inbox."},
+  {no: "Edition No. 2", desc: "The day's main stories, with the background you need to follow them."},
+  {no: "Edition No. 3", desc: "Past editions will be listed here as they're published."}
+];
+if (!validEditions.length) {
+  PLACEHOLDERS.forEach(ph => {
+    const link = document.createElement("a"); link.className = "edition edition-placeholder"; link.href = "#subscribe";
+    const cover = document.createElement("div"); cover.className = "edition-cover";
+    const tag = document.createElement("span"); tag.className = "edition-tag"; tag.textContent = "Coming soon";
+    const ct = document.createElement("div"); ct.className = "edition-cover-title"; ct.textContent = ph.no;
+    const cd = document.createElement("div"); cd.className = "edition-cover-date"; cd.textContent = "Facts First Daily";
+    cover.append(tag, ct, cd);
+    const body = document.createElement("div"); body.className = "edition-body";
+    const meta = document.createElement("div"); meta.className = "edition-meta"; meta.textContent = "Coming soon";
+    const title = document.createElement("h3"); title.textContent = ph.no;
+    const desc = document.createElement("p"); desc.textContent = ph.desc;
+    const read = document.createElement("span"); read.className = "read-link"; read.textContent = "Subscribe to get it ↗";
+    body.append(meta, title, desc, read);
+    link.append(cover, body); editionsGrid.append(link);
+  });
+  editionsGrid.hidden = false;
+  document.getElementById("editions-empty").hidden = true;
+}
 if (validEditions.length) {
-  const grid = document.getElementById("editions-grid");
+  const grid = editionsGrid;
   validEditions.slice(0,6).forEach(e => {
     const link = document.createElement("a"); link.className = "edition"; link.href = e.url;
     const nice = new Date(e.date + "T12:00:00Z");
