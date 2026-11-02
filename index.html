@@ -155,7 +155,7 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
     image: "https://..."  // optional cover image; leave out to auto-generate one}
 */
 const SITE_CONFIG = {
-  mailerliteFormAction: "",   // MailerLite embedded form action URL (inline signup)
+  mailerliteFormAction: "https://assets.mailerlite.com/jsonp/2756267/forms/203044673267173156/subscribe",   // MailerLite embedded form action URL (inline signup)
   mailerliteSignupUrl: "",    // OR a hosted MailerLite signup page (redirect)
   privacyPolicyUrl: "",
   termsUrl: "",
@@ -197,7 +197,7 @@ if ((formAction || hostedUrl) && isPublicHttps(SITE_CONFIG.privacyPolicyUrl)) {
       button.disabled = true; button.textContent = "Subscribing…"; status.textContent = "";
       try {
         const data = new FormData();
-        data.append("fields[email]", input.value.trim()); data.append("ml-submit", "1"); data.append("anonymous", "true");
+        data.append("fields[email]", input.value.trim()); data.append("ml-submit", "1"); data.append("anticsrf", "true");
         const res = await fetch(formAction, { method: "POST", body: data });
         const json = await res.json().catch(() => ({}));
         if (!res.ok || json.success === false) throw new Error();
