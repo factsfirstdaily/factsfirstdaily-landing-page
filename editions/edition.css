@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600;700&display=swap');
+:root{--green:#123F32;--bright:#14734D;--red:#C43C32;--paper:#F7F6F0;--ink:#182B25;--muted:#58675F;--line:#D8DED6;--soft:#ECEAE0;--head:"DM Serif Display",Georgia,"Times New Roman",serif;--body:Inter,Arial,Helvetica,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--body);background:var(--soft);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.topbar{background:var(--paper);border-top:6px solid var(--red);border-bottom:1px solid var(--line)}
+.topbar-inner{max-width:680px;margin:auto;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.brand{display:block;width:190px;line-height:0}.brand svg{width:100%;height:auto}
+.topbar a.cta{background:var(--green);color:#fff;text-decoration:none;font-family:var(--body);font-size:13px;font-weight:700;padding:11px 16px;border-radius:4px;white-space:nowrap}
+.sheet{max-width:640px;margin:24px auto 0;background:#fff;border-radius:10px;overflow:hidden}
+.intro{background:var(--paper);padding:30px 32px 6px}
+.eyebrow{font-family:var(--body);font-size:11px;font-weight:700;letter-spacing:2px;color:var(--red);text-transform:uppercase}
+h1{font-family:var(--head);font-size:clamp(25px,5vw,31px);line-height:1.2;letter-spacing:-.3px;color:var(--green);margin:10px 0}
+.dek{font-size:16px;line-height:1.65;color:var(--muted);margin:0 0 22px}
+.toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--red);border-radius:6px;padding:14px 20px 4px;margin-bottom:26px}
+.toc .label{font-size:11px;font-weight:bold;letter-spacing:2px;color:var(--green);text-transform:uppercase}
+.toc ol{list-style:none;margin:4px 0 0;padding:0}
+.toc li{display:flex;gap:14px;padding:11px 0;border-bottom:1px solid #E4E8E2;font-size:14px;line-height:1.45;color:#2E3F39}
+.toc li:last-child{border-bottom:0}
+.toc .n{color:var(--red);font-weight:bold;font-size:13px;min-width:20px}
+.toc strong{color:var(--green);display:block}
+.part{padding:30px 32px 6px}
+.part-label{font-size:11px;font-weight:bold;letter-spacing:2.2px;color:var(--red);text-transform:uppercase}
+.part h2{font-family:var(--head);font-size:24px;letter-spacing:-.3px;color:var(--green);margin:6px 0 0}
+.story{padding:20px 0 22px;border-bottom:1px solid #E4E8E2}
+.story:last-child{border-bottom:0}
+figure{margin:0}
+figure img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:8px;background:#E4E8E2}
+figcaption{font-size:11px;line-height:1.4;color:#8A968F;margin-top:6px}
+.story h3{font-family:var(--head);font-size:20px;line-height:1.3;color:var(--ink);margin:14px 0 6px}
+.story p,.ctx p.body{font-size:16px;line-height:1.65;margin:0;color:#2E3F39}
+.story p.source,.ctx p.source,p.source{font-size:12px;line-height:1.5;color:#6B7A72;margin:10px 0 0}
+.source a{color:#6B7A72}
+.context-wrap{background:var(--paper);padding:30px 32px 30px;margin-top:8px}
+.ctx{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:18px}
+.ctx figure img{border-radius:0}
+.ctx figcaption{padding:0 20px}
+.ctx .in{padding:18px 22px 22px}
+.ctx h3{font-family:var(--head);font-size:21px;line-height:1.3;color:var(--green);margin:0 0 4px}
+.ctx .k{font-size:11px;font-weight:bold;letter-spacing:1.6px;color:var(--red);text-transform:uppercase;margin:16px 0 4px}
+.ctx p.body{font-size:15px;line-height:1.6}
+.wider{list-style:none;margin:14px 0 0;padding:0}
+.wider li{padding:13px 0 13px 18px;border-bottom:1px solid #E4E8E2;font-size:15px;line-height:1.6;color:#2E3F39;position:relative}
+.wider li:last-child{border-bottom:0}
+.wider li::before{content:"";position:absolute;left:0;top:21px;width:7px;height:7px;border-radius:50%;background:var(--red)}
+.wider strong{color:var(--green)}
+.wider .s{font-size:12px;color:#6B7A72}
+.trivia{margin:18px 32px 6px;border:2px dashed var(--red);border-radius:10px;padding:20px 22px}
+.trivia .q{font-size:17px;line-height:1.45;font-weight:bold;margin:8px 0 10px}
+.trivia .opts{font-size:15px;line-height:1.6;color:#2E3F39;margin:0}
+.trivia details{margin-top:12px;font-size:14px;line-height:1.55;color:#2E3F39}
+.trivia summary{cursor:pointer;font-weight:bold;color:var(--red)}
+.signoff{margin:24px 32px 30px;background:var(--green);color:#fff;text-align:center;border-top:4px solid var(--red);border-radius:0 0 10px 10px;padding:26px 20px}
+.signoff h2{font-family:var(--head);margin:0 0 6px;font-size:21px}
+.signoff p{margin:0 0 16px;color:#D8E2DC;font-size:14px;line-height:1.6}
+.signoff a{display:inline-block;background:#fff;color:var(--green);font-weight:bold;font-size:14px;text-decoration:none;padding:13px 22px;border-radius:6px}
+.nav{max-width:640px;margin:18px auto 0;padding:0 20px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:14px;font-weight:bold}
+.nav a{color:var(--green)}
+footer{max-width:640px;margin:auto;padding:22px 20px 40px;font-size:12px;line-height:1.6;color:#6B7A72;text-align:center}
+footer a{color:#6B7A72}
+@media(max-width:560px){.intro,.part,.context-wrap{padding-left:18px;padding-right:18px}.trivia,.signoff{margin-left:18px;margin-right:18px}.sheet{margin-top:0;border-radius:0}.brand{width:160px}}
