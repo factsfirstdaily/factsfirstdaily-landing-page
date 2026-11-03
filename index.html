@@ -10,6 +10,7 @@
 <meta property="og:description" content="The headlines. The context. A clearer way to catch up.">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://factsfirstdaily.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23123F32'/%3E%3Crect y='0' width='64' height='8' fill='%23C43C32'/%3E%3Ctext x='32' y='47' font-family='Arial,Helvetica,sans-serif' font-size='34' font-weight='bold' fill='%23fff' text-anchor='middle'%3EFF%3C/text%3E%3C/svg%3E">
 <style>
 :root{--green:#123F32;--bright:#14734D;--red:#C43C32;--paper:#F7F6F0;--ink:#182B25;--muted:#58675F;--line:#D8DED6}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}
@@ -98,9 +99,6 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
 <div class="eyebrow">Your free daily briefing</div>
 <h1 id="hero-title">Big stories.<br>Clear context. <span>Facts first.</span></h1>
 <p class="lead">Catch up on the headlines and the details behind them, with a concise daily email that makes room for the rest of your day.</p>
-<!-- Replace this signup block with the OFFICIAL Facts First Daily MailerLite
-     embed if you want email capture on this page. Do not copy FMD's form,
-     /create endpoint, tracking fields, or subscription settings. -->
 <div class="signup">
 <form class="signup-form" data-signup-form novalidate><label class="sr-only" for="email-hero">Email address</label><input class="signup-input" id="email-hero" type="email" name="fields[email]" placeholder="Enter your email" autocomplete="email" required disabled><button class="signup-button" type="submit" disabled>Subscribe Free</button></form>
 <p class="reassurance">Free to subscribe · Straight to your inbox · Unsubscribe anytime</p>
@@ -118,7 +116,7 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
 </div>
 </section>
 <section class="editions-section" id="editions" aria-labelledby="editions-title"><div class="wrap section">
-<div class="section-heading"><div><div class="eyebrow">From the newsletter</div><h2 id="editions-title">Recent editions.</h2></div><p>Read at your own pace. New editions will show up here as they're published.</p></div>
+<div class="section-heading"><div><div class="eyebrow">From the newsletter</div><h2 id="editions-title">Recent editions.</h2></div><p>Catch up on the latest editions. Tap one to read it in full.</p></div>
 <div class="launch-state" id="editions-empty"><h3>A new daily read<br>is on its way.</h3><p>We're getting the first edition ready. Subscribe to receive it in your inbox when it launches.</p></div>
 <div class="editions-grid" id="editions-grid" hidden></div>
 <a class="archive-link" id="archive-link" hidden>Browse all editions ↗</a>
@@ -131,6 +129,8 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
 <div><div class="eyebrow">Good to know</div><h2 id="faq-title">Before you subscribe.</h2></div>
 <div><details><summary>What will I receive?</summary><p>A daily email with concise news summaries, key details, and context across a range of topics.</p></details>
 <details><summary>Is the newsletter free?</summary><p>Yes. Facts First Daily is free to subscribe to.</p></details>
+<details><summary>How long does it take to read?</summary><p>Most editions take about four minutes. Headlines first, then one story explained in depth, then a few lighter reads.</p></details>
+<details><summary>Can I read an edition first?</summary><p>Yes. Check out the <a href="#editions">recent editions</a> above to see exactly what each email looks like.</p></details>
 <details><summary>Can I unsubscribe?</summary><p>Yes. Every newsletter includes an unsubscribe link.</p></details></div>
 </section>
 <section class="final-cta" aria-labelledby="final-title">
@@ -148,11 +148,12 @@ footer{padding:28px 0;font-size:12px;color:var(--muted)}
    from your official MailerLite embed code) OR mailerliteSignupUrl is
    required to enable the signup forms. Form action = inline signup;
    signup URL = redirect to the hosted MailerLite page.
-   Add ONLY published Facts First Daily editions, not FMD's posts.
-   Example schema for editions (leave [] until real):
+   Editions: newest first. image is the card cover photo.
+   Example schema:
    {title: "...", description: "...", url: "https://...",
     date: "2026-11-03", readingTime: "5 min read",
-    image: "https://..."  // optional cover image; leave out to auto-generate one}
+    image: "https://...",  // optional cover image; leave out to auto-generate one
+    sample: true}          // optional
 */
 const SITE_CONFIG = {
   mailerliteFormAction: "https://assets.mailerlite.com/jsonp/2756267/forms/203044673267173156/subscribe",   // MailerLite embedded form action URL (inline signup)
@@ -160,7 +161,20 @@ const SITE_CONFIG = {
   privacyPolicyUrl: "https://factsfirstdaily.com/privacy.html",
   termsUrl: "",
   archiveUrl: "",
-  editions: []
+  editions: [
+    {title: "America Votes Today. The U.S. Just Bombed Iran. And a Disease We Thought Was Gone Killed a Child.",
+     description: "Control of Congress is on the ballot. The U.S. bombs Iran's launch island. And New York's first measles death in decades.",
+     url: "https://factsfirstdaily.com/editions/2026-11-03.html", date: "2026-11-03", readingTime: "4 min read",
+     image: "https://images.unsplash.com/photo-1540908390241-82158ab62887?w=1280&fit=crop&q=80"},
+    {title: "Oil Just Crashed 7%. Apple\u2019s New Boss Aced His First Test. And Millions of Kids Are Getting SpaceX Stock.",
+     description: "Oil crashes 7% on Iran deal hopes, Apple's new CEO aces his first earnings, and millions of teens are getting SpaceX stock.",
+     url: "https://factsfirstdaily.com/editions/2026-11-02.html", date: "2026-11-02", readingTime: "4 min read",
+     image: "https://images.unsplash.com/photo-1562237548-1af9481f035a?w=1280&fit=crop&q=80"},
+    {title: "Google Lost $500 Billion in a Day. Hackers Stole $6.3 Billion in Crypto. And the Fed Isn\u2019t Done Yet.",
+     description: "Google's parent lost $500B in a day, hackers pulled off the biggest crypto heist ever, and the Fed hinted it's not done.",
+     url: "https://factsfirstdaily.com/editions/2026-11-01.html", date: "2026-11-01", readingTime: "4 min read",
+     image: "https://images.unsplash.com/photo-1785623354485-b663cb9afa0b?w=1280&fit=crop&q=80"}
+  ]
 };
 function isPublicHttps(value) {
   try {
@@ -244,7 +258,7 @@ if (validEditions.length) {
     const nice = new Date(e.date + "T12:00:00Z");
     const longDate = nice.toLocaleDateString("en-US", {year:"numeric", month:"long", day:"numeric", timeZone:"UTC"});
     const cover = document.createElement("div"); cover.className = "edition-cover";
-    const tag = document.createElement("span"); tag.className = "edition-tag"; tag.textContent = "Edition";
+    const tag = document.createElement("span"); tag.className = "edition-tag"; tag.textContent = e.sample ? "Sample edition" : "Edition";
     cover.append(tag);
     if (isPublicHttps(e.image)) {
       const img = document.createElement("img"); img.src = e.image; img.alt = ""; img.loading = "lazy"; cover.append(img);
@@ -261,7 +275,7 @@ if (validEditions.length) {
     if (typeof e.readingTime === "string" && e.readingTime) meta.append(document.createTextNode(" · " + e.readingTime));
     const title = document.createElement("h3"); title.textContent = e.title;
     const desc = document.createElement("p"); desc.textContent = typeof e.description === "string" ? e.description : "";
-    const read = document.createElement("span"); read.className = "read-link"; read.textContent = "Read edition ↗";
+    const read = document.createElement("span"); read.className = "read-link"; read.textContent = e.sample ? "Read the sample ↗" : "Read edition ↗";
     body.append(meta, title, desc, read);
     link.append(cover, body); grid.append(link);
   });
