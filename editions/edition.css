@@ -26,7 +26,7 @@ h1{font-family:var(--head);font-size:clamp(25px,5vw,31px);line-height:1.2;letter
 .story{padding:20px 0 22px;border-bottom:1px solid #E4E8E2}
 .story:last-child{border-bottom:0}
 figure{margin:0}
-figure img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:8px;background:#E4E8E2}
+figure img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:8px;background:#E4E8E2}
 figcaption{font-size:11px;line-height:1.4;color:#8A968F;margin-top:6px}
 .story h3{font-family:var(--head);font-size:20px;line-height:1.3;color:var(--ink);margin:14px 0 6px}
 .story p,.ctx p.body{font-size:16px;line-height:1.65;margin:0;color:#2E3F39}
