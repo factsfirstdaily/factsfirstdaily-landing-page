@@ -60,3 +60,25 @@ figcaption{font-size:11px;line-height:1.4;color:#8A968F;margin-top:6px}
 footer{max-width:640px;margin:auto;padding:22px 20px 40px;font-size:12px;line-height:1.6;color:#6B7A72;text-align:center}
 footer a{color:#6B7A72}
 @media(max-width:560px){.intro,.part,.context-wrap{padding-left:18px;padding-right:18px}.trivia,.signoff{margin-left:18px;margin-right:18px}.sheet{margin-top:0;border-radius:0}.brand{width:160px}}
+/* full format (Nov. 5 onward) */
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:0 0 18px;font-size:13px;font-weight:600}
+.share span{color:var(--muted);font-weight:400}.share a{color:var(--green)}
+.toc a{color:inherit;text-decoration:none}.toc a:hover{text-decoration:underline}
+.toc .secs{list-style:none;display:flex;flex-wrap:wrap;gap:6px 16px;margin:4px 0 0;padding:12px 0 10px;border-top:1px solid #E4E8E2;font-size:13px;font-weight:600}
+.toc .secs a{color:var(--green)}.toc .secs li{border-bottom:0;padding:0;display:block}
+.story p+p{margin-top:12px}.story p a,.brief a,.ctx p.body a{color:var(--green);text-decoration:underline;text-underline-offset:2px}
+.briefing .sec{padding:18px 0 4px;border-bottom:1px solid #E4E8E2}.briefing .sec:last-child{border-bottom:0}
+.briefing .sec h3{font-family:var(--body);font-size:12px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:var(--red);margin:0 0 8px}
+.brief{font-size:15px;line-height:1.6;color:#2E3F39;margin:0 0 12px}.brief b{color:var(--ink)}
+.qz,.poll{margin:22px 32px 6px;border:2px dashed var(--red);border-radius:10px;padding:20px 22px}
+.qz-q{font-family:var(--head);font-size:20px;line-height:1.35;margin:8px 0 14px;color:var(--ink)}
+.qz-opts{display:grid;gap:10px}
+.qz-opt{display:flex;align-items:center;gap:12px;width:100%;text-align:left;font:15px var(--body);color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;cursor:pointer}
+.qz-opt:hover:not(:disabled){border-color:var(--green)}.qz-opt:disabled{cursor:default;opacity:.75}
+.qz-key{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:6px;background:var(--paper);font-weight:700;color:var(--green);flex:none}
+.qz-opt.ok{border-color:#2E8B57;background:#E6F4EC;opacity:1}.qz-opt.ok .qz-key{background:#2E8B57;color:#fff}
+.qz-opt.no{border-color:var(--red);background:#FBEAE8;opacity:1}.qz-opt.no .qz-key{background:var(--red);color:#fff}
+.qz-reveal{margin-top:14px}.qz-verdict{font-weight:700;margin:0 0 6px}.qz-fact{margin:0;font-size:15px;line-height:1.6;color:#2E3F39}
+.poll-btns{display:flex;gap:12px}.poll-btns a{flex:1;text-align:center;background:var(--green);color:#fff;font-weight:700;text-decoration:none;padding:12px;border-radius:8px}
+.poll-btns a+a{background:#fff;color:var(--green);border:2px solid var(--green)}
+@media(max-width:560px){.qz,.poll{margin-left:18px;margin-right:18px}}
