@@ -46,7 +46,8 @@ for tag in ("header", "footer", "script"):
     assert re.search(pattern, new, re.S)[0] == re.search(pattern, old, re.S)[0], ("Locked template changed", tag)
 assert "<title>Facts First Daily</title>" in re.search(r"<header\b.*?</header>", new, re.S)[0]
 for p in ROOT.glob("editions/2026-*.html"):
-    assert 'href="/editions/2026-11-06.html">Latest edition' in p.read_text()
+    expected_latest = "2026-11-07" if p.name == "2026-11-07.html" else "2026-11-06"
+    assert f'href="/editions/{expected_latest}.html">Latest edition' in p.read_text()
 assert page.meta["og:image"] == re.search(r'<img[^>]*src="([^"]+)"', new)[1].replace("&amp;", "&")
 assert "Friday, November 6, 2026" in new
 assert 'href="https://factsfirstdaily.com/editions/2026-11-06.html" rel="canonical"' in new or 'rel="canonical" href="https://factsfirstdaily.com/editions/2026-11-06.html"' in new
