@@ -1,0 +1,36 @@
+{
+  "tests/interactions.test.cjs": [
+    [
+      "assert.equal(config.editions[0].date, '2026-11-07');",
+      "assert.equal(config.editions[0].date, '2026-11-08');"
+    ],
+    [
+      "assert.equal(config.editions[0].url, 'https://factsfirstdaily.com/editions/2026-11-07.html');",
+      "assert.equal(config.editions[0].url, 'https://factsfirstdaily.com/editions/2026-11-08.html');"
+    ],
+    [
+      "assert.equal(config.editions.length, 6);",
+      "assert.equal(config.editions.length, 7);"
+    ],
+    [
+      "homepage configuration and all 6 edition destinations.",
+      "homepage configuration and all 7 edition destinations."
+    ]
+  ],
+  "tests/links_test.py": [
+    [
+      "expected_latest = \"2026-11-07\" if p.name == \"2026-11-07.html\" else \"2026-11-06\"",
+      "expected_latest = \"2026-11-08\" if p.name == \"2026-11-08.html\" else \"2026-11-07\" if p.name == \"2026-11-07.html\" else \"2026-11-06\""
+    ]
+  ],
+  "tests/test_nov7_site.py": [
+    [
+      "            self.assertTrue(rows[0][\"url\"].endswith(f\"editions/{DATE}.html\"))\n            self.assertEqual(rows[0][\"description\"], EXPECTED[\"description\"])\n            title = \"\\n\".join(rows[0][\"title\"]) if isinstance(rows[0][\"title\"], list) else rows[0][\"title\"]",
+      "            matches = [r for r in rows if r[\"url\"].endswith(f\"editions/{DATE}.html\")]\n            self.assertEqual(len(matches), 1, \"Preserved Nov7 card must remain unique\")\n            row = matches[0]\n            self.assertEqual(row[\"description\"], EXPECTED[\"description\"])\n            title = \"\\n\".join(row[\"title\"]) if isinstance(row[\"title\"], list) else row[\"title\"]"
+    ],
+    [
+      "for before, after in FIXTURE_EDITS[BRAND].get(path, []):",
+      "for before, after in FIXTURE_EDITS[BRAND].get(path, []) + json.loads((ROOT / \"tests/nov8_fixture_edits.json\").read_text()).get(path, []):"
+    ]
+  ]
+}

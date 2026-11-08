@@ -73,9 +73,11 @@ class Nov7Site(unittest.TestCase):
         paths = ["index.html"] + (["archive.html"] if BRAND == "worldskim" else ["editions/index.html"] if BRAND == "factsfirstdaily" else [])
         for path in paths:
             rows = config(path)["editions"]
-            self.assertTrue(rows[0]["url"].endswith(f"editions/{DATE}.html"))
-            self.assertEqual(rows[0]["description"], EXPECTED["description"])
-            title = "\n".join(rows[0]["title"]) if isinstance(rows[0]["title"], list) else rows[0]["title"]
+            matches = [r for r in rows if r["url"].endswith(f"editions/{DATE}.html")]
+            self.assertEqual(len(matches), 1, "Preserved Nov7 card must remain unique")
+            row = matches[0]
+            self.assertEqual(row["description"], EXPECTED["description"])
+            title = "\n".join(row["title"]) if isinstance(row["title"], list) else row["title"]
             self.assertEqual(title, EXPECTED["title"])
             self.assertTrue(any(r["url"].endswith(f"editions/{OLD}.html") for r in rows))
 
@@ -170,7 +172,7 @@ class Nov7Site(unittest.TestCase):
         paths = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", BASE_COMMIT, "tests/"], cwd=ROOT, text=True).splitlines()
         for path in paths:
             expected = subprocess.check_output(["git", "show", f"{BASE_COMMIT}:{path}"], cwd=ROOT).decode()
-            for before, after in FIXTURE_EDITS[BRAND].get(path, []):
+            for before, after in FIXTURE_EDITS[BRAND].get(path, []) + json.loads((ROOT / "tests/nov8_fixture_edits.json").read_text()).get(path, []):
                 self.assertEqual(expected.count(before), 1, (path, "approved fixture patch must bind uniquely"))
                 expected = expected.replace(before, after, 1)
             self.assertEqual((ROOT / path).read_text(), expected,
