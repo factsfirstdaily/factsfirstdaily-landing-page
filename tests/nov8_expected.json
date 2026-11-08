@@ -16,7 +16,7 @@
       ],
       "region": "us",
       "photo": {
-        "image_url": "https://images.unsplash.com/photo-1719947691028-0be6e2dccddd?auto=format&fit=crop&w=1280&h=720&q=85",
+        "image_url": "https://images.unsplash.com/photo-1719947691028-0be6e2dccddd?fm=jpg&fit=crop&w=1280&h=720&q=85",
         "original_url": "https://unsplash.com/photos/a-large-white-building-with-a-fountain-in-front-of-it-jhswx1S60qk",
         "alt": "White House exterior and fountain in Washington; file photo.",
         "verified": true
@@ -33,7 +33,7 @@
       ],
       "region": "us",
       "photo": {
-        "image_url": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1280&h=720&q=85",
+        "image_url": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?fm=jpg&fit=crop&w=1280&h=720&q=85",
         "original_url": "https://unsplash.com/photos/white-sedan-parked-beside-mountain-during-daytime-AkgALppFIwo",
         "alt": "White Tesla Model 3 beside coastal hills; contextual file photo, not a Cybertruck.",
         "verified": true
@@ -50,7 +50,7 @@
       ],
       "region": "world",
       "photo": {
-        "image_url": "https://images.unsplash.com/photo-1722447152764-6779055c5335?auto=format&fit=crop&w=1280&h=720&q=85",
+        "image_url": "https://images.unsplash.com/photo-1722447152764-6779055c5335?fm=jpg&fit=crop&w=1280&h=720&q=85",
         "original_url": "https://unsplash.com/photos/a-statue-in-front-of-a-large-building-JH2TIUEGPT0",
         "alt": "Cloth Hall and Adam Mickiewicz monument in Krakow Main Square; file photo.",
         "verified": true
@@ -67,7 +67,7 @@
       ],
       "region": "world",
       "photo": {
-        "image_url": "https://images.unsplash.com/photo-1529079875474-0a66a1f176d0?auto=format&fit=crop&w=1280&h=720&q=85",
+        "image_url": "https://images.unsplash.com/photo-1529079875474-0a66a1f176d0?fm=jpg&fit=crop&w=1280&h=720&q=85",
         "original_url": "https://unsplash.com/photos/brown-mosque-at-daytime-QUeJRmJTzT0",
         "alt": "Jerusalem historic walls and the Mount of Olives; contextual file photo.",
         "verified": true
@@ -85,7 +85,7 @@
     ],
     "region": "world",
     "photo": {
-      "image_url": "https://images.unsplash.com/photo-1527766833261-b09c3163a791?auto=format&fit=crop&w=1280&h=720&q=85",
+      "image_url": "https://images.unsplash.com/photo-1527766833261-b09c3163a791?fm=jpg&fit=crop&w=1280&h=720&q=85",
       "original_url": "https://unsplash.com/photos/photo-of-body-of-water-and-droplets-ZxZQk7777R4",
       "alt": "Rain ripples on water; illustrative file photo.",
       "verified": true
@@ -145,13 +145,13 @@
   },
   "date_line": "Sunday, November 8, 2026 · 6 min read",
   "brand": "factsfirstdaily",
-  "source_web_sha256": "d7fe2262e3e539d72b10b3b5f27d30ded225e0608a733b2bda3c8303b4eb9d46",
+  "source_web_sha256": "e4fdd03a12c54e963e874109fed228a99adf76da9b59b5f57e41e8a29f67c742",
   "ffd_layout_version": "v3_no_intro_h1",
   "frozen_article_nodes_sha256": [
-    "1b9468d3460b86971abc487db625c2a81fdc600e42da5ec076cca369d5b01c7c",
-    "13943890b68ee696b416211ec32817693866d7b4102a378ec088df7f5a712123",
-    "233328cb5d56cea4a36435f0417fd6054e72d655e3b2d6fa60306dd9cce4dcdd",
-    "f9fdbf063da4d382519720726b4f8a507a1c06ffbd957da233ac999e4242ac7e",
-    "968f859405c49d4c0a8f2e5f4ef40d55eac13352d8859016a9b9121e945a475f"
+    "8f180679d4074ba18318fdf0121092dca8721032020ce06e391f391c64e080a1",
+    "a51244e273fdb48400f3180befa6b3aabc8e39028ddb5163312ddcd229583beb",
+    "850bde71cbc0c1589a8f9bde2794520c269f64cb4c2d585625ce14c428865d64",
+    "fbf2f0298f291191e5898b7ea1d4fff4dfa374a54fe454409f4cafc8f80cb2b7",
+    "02947def0ed3bd904b2179403ed6890b15267788b896f6bebd155c42e1857f8e"
   ]
 }
