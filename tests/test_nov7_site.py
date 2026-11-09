@@ -172,7 +172,7 @@ class Nov7Site(unittest.TestCase):
         paths = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", BASE_COMMIT, "tests/"], cwd=ROOT, text=True).splitlines()
         for path in paths:
             expected = subprocess.check_output(["git", "show", f"{BASE_COMMIT}:{path}"], cwd=ROOT).decode()
-            for before, after in FIXTURE_EDITS[BRAND].get(path, []) + json.loads((ROOT / "tests/nov8_fixture_edits.json").read_text()).get(path, []):
+            for before, after in FIXTURE_EDITS[BRAND].get(path, []) + json.loads((ROOT / "tests/nov8_fixture_edits.json").read_text()).get(path, []) + json.loads((ROOT / "tests/nov9_fixture_edits.json").read_text()).get(path, []):
                 self.assertEqual(expected.count(before), 1, (path, "approved fixture patch must bind uniquely"))
                 expected = expected.replace(before, after, 1)
             self.assertEqual((ROOT / path).read_text(), expected,

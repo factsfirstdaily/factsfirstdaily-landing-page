@@ -1,0 +1,50 @@
+{
+  "tests/interactions.test.cjs": [
+    [
+      "config.editions[0].date, '2026-11-08'",
+      "config.editions[0].date, '2026-11-09'"
+    ],
+    [
+      "config.editions[0].url, 'https://factsfirstdaily.com/editions/2026-11-08.html'",
+      "config.editions[0].url, 'https://factsfirstdaily.com/editions/2026-11-09.html'"
+    ],
+    [
+      "config.editions.length, 7",
+      "config.editions.length, 8"
+    ],
+    [
+      "all 7 edition destinations",
+      "all 8 edition destinations"
+    ]
+  ],
+  "tests/links_test.py": [
+    [
+      "expected_latest = \"2026-11-08\" if",
+      "expected_latest = \"2026-11-09\" if p.name == \"2026-11-09.html\" else \"2026-11-08\" if"
+    ]
+  ],
+  "tests/test_nov7_site.py": [
+    [
+      "FIXTURE_EDITS[BRAND].get(path, []) + json.loads((ROOT / \"tests/nov8_fixture_edits.json\").read_text()).get(path, [])",
+      "FIXTURE_EDITS[BRAND].get(path, []) + json.loads((ROOT / \"tests/nov8_fixture_edits.json\").read_text()).get(path, []) + json.loads((ROOT / \"tests/nov9_fixture_edits.json\").read_text()).get(path, [])"
+    ]
+  ],
+  "tests/test_nov8_site.py": [
+    [
+      "self.assertTrue(rows[0][\"url\"].endswith(f\"editions/{DATE}.html\"))",
+      "self.assertTrue(rows[0][\"url\"].endswith(\"editions/2026-11-09.html\"))\n            dated = next(r for r in rows if r[\"url\"].endswith(f\"editions/{DATE}.html\"))"
+    ],
+    [
+      "self.assertEqual(rows[0][\"description\"], EXPECTED[\"description\"])",
+      "self.assertEqual(dated[\"description\"], EXPECTED[\"description\"])"
+    ],
+    [
+      "title = \"\\n\".join(rows[0][\"title\"]) if isinstance(rows[0][\"title\"], list) else rows[0][\"title\"]",
+      "title = \"\\n\".join(dated[\"title\"]) if isinstance(dated[\"title\"], list) else dated[\"title\"]"
+    ],
+    [
+      "FIXTURE_EDITS.get(path, [])",
+      "FIXTURE_EDITS.get(path, []) + json.loads((ROOT / \"tests/nov9_fixture_edits.json\").read_text()).get(path, [])"
+    ]
+  ]
+}
