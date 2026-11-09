@@ -263,7 +263,7 @@ if (!validEditions.length) {
 }
 if (validEditions.length) {
   const grid = editionsGrid;
-  validEditions.slice(0,6).forEach(e => {
+  validEditions.forEach(e => {
     const link = document.createElement("a"); link.className = "edition"; link.href = e.url;
     const nice = new Date(e.date + "T12:00:00Z");
     const longDate = nice.toLocaleDateString("en-US", {year:"numeric", month:"long", day:"numeric", timeZone:"UTC"});

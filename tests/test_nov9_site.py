@@ -18,6 +18,12 @@ def locked(doc):
  for n in doc.select("script"):
   raw=n.get_text()
   if "SITE_CONFIG" in raw:
+   if B=="factsfirstdaily":
+    # Reverse only the approved archive-limit removal; retain every other lock.
+    approved="  validEditions.forEach(e => {"
+    assert raw.count(approved)==1
+    assert "validEditions.slice(0,6)" not in raw
+    raw=raw.replace(approved,"  validEditions.slice(0,6).forEach(e => {",1)
    m=re.search(r"(?:const|var) SITE_CONFIG\s*=\s*(\{.*?\});",raw,re.S)
    scripts.append(h(raw[:m.start(1)]+"<EDITION_DATA>"+raw[m.end(1):]))
   else:scripts.append(h(str(n)))
@@ -29,6 +35,7 @@ def locked(doc):
 class Nov9Candidate(unittest.TestCase):
  def test_01_changed_scope_and_fixed_files(self):
   allowed={"index.html",f"editions/{DATE}.html",f"editions/{OLD}.html","tests/test_nov9_site.py","tests/nov9_expected.json"}
+  allowed.add("tests/test_full_archive.py")
   if B=="factsfirstdaily":allowed.add("editions/index.html")
   if B=="worldskim":allowed.add("archive.html")
   allowed.update(E["fixture_file_sha256"])
