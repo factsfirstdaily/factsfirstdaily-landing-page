@@ -33,6 +33,7 @@ class Nov10Candidate(unittest.TestCase):
   if B=="worldskim":allowed.add("archive.html")
   allowed.update(E["fixture_file_sha256"])
   allowed.add("tests/nov10_fixture_edits.json")
+  allowed.update({"tests/nov10_cpi_revision.json","tests/test_nov10_cpi_revision.py"})
   original=E["baseline"]["files"]
   current={str(p.relative_to(ROOT)):p for p in ROOT.rglob("*") if p.is_file() and "__pycache__" not in p.parts}
   current={name:p for name,p in current.items() if ".git" not in p.parts}

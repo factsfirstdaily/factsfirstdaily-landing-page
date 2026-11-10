@@ -3,15 +3,15 @@
   "date": "2026-11-10",
   "old": "2026-11-09",
   "content": {
-    "title": "Waller Backs a December Rate Hike.\nThe Supreme Court Clears Big Bend Wall Work.\nFrance Blames Iran for Freezer Hacks.",
-    "subject": "Waller Backs a December Rate Hike Before Inflation Data",
+    "title": "October Prices Rise 0.4%.\nThe Supreme Court Clears Big Bend Wall Work.\nFrance Blames Iran for Freezer Hacks.",
+    "subject": "October Prices Rise 0.4% as Waller Backs a December Hike",
     "preview_text": "The Supreme Court clears Big Bend wall work, France blames Iran and Ukraine talks open.",
-    "description": "A Fed governor backs a December hike, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+    "description": "October consumer prices rose 0.4%, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
     "contents_extra": "Abu Dhabi peace talks, Iran diplomacy, trivia and your poll",
     "stories": [
       {
         "topic": "nov10-waller-december-rate-hike-cpi",
-        "title": "A Fed Governor Backs a December Rate Hike Before Inflation Data",
+        "title": "October Prices Rise 0.4% as Waller Backs a December Hike",
         "region": "us",
         "photo": {
           "image_url": "https://images.unsplash.com/photo-1542320728179-bda01e6f5c73?fm=jpg&fit=crop&w=1280&h=720&q=85",
@@ -20,10 +20,10 @@
           "verified": true
         },
         "paragraphs": [
-          "Federal Reserve Governor Christopher Waller said Tuesday that he would support a quarter point rate increase in December. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">CNBC reports that he spoke in London</a> and said a half point move should be considered if inflation runs hotter than expected.",
+          "Before Tuesday’s inflation release, Federal Reserve Governor Christopher Waller said that he would support a quarter point rate increase in December. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">CNBC reports that he spoke in London</a> and said a half point move should be considered if inflation runs hotter than expected.",
           "Waller argued that Fed messaging around the October meeting led markets to expect more increases. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">He warned that failing to deliver them would put the Fed’s credibility at risk</a>. The Fed held rates in October, with two officials dissenting.",
-          "His remarks came hours before the October consumer price index release. <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports that economists expect prices to rise 0.3% for the month</a>, after a 0.6% increase previously. <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html\">Yahoo Finance reports that stock futures were little changed</a> after Monday’s rally.",
-          "<strong>Why it matters.</strong> Higher rates raise borrowing costs for households and businesses. <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports that two year yields rose as traders moved to fully price in a December increase</a>. The Fed’s next policy meeting is scheduled for Dec. 8 and 9, <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">according to CNBC</a>."
+          "<a href=\"https://www.bls.gov/news.release/cpi.nr0.htm\">The Bureau of Labor Statistics reported that consumer prices rose 0.4% in October</a>, after a 0.6% increase in September. Core prices, excluding food and energy, rose 0.3%, matching September. Both monthly figures are seasonally adjusted. BLS did not publish annual headline or core rates because the October 2025 indexes were unavailable following last year’s lapse in appropriations.",
+          "<strong>Why it matters.</strong> Higher rates raise borrowing costs for households and businesses. Waller’s remarks represent one governor’s view, not a new Fed decision. The Fed’s next policy meeting is scheduled for Dec. 8 and 9, <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">according to CNBC</a>."
         ]
       },
       {
@@ -139,7 +139,7 @@
     "qa_notes": {
       "status": "LOCAL_EDITORIAL_PREPARATION_ONLY; parent review and combined validation required",
       "uncertainties": [
-        "Waller statement is one governor’s view; CPI release was pending at preparation time and is not reported.",
+        "October 2026 BLS release opened at 13:30:56 UTC Nov. 10: headline +0.4% m/m; core +0.3% m/m, seasonally adjusted. Headline/core annual changes unavailable because October 2025 indexes were not published following the lapse in appropriations. Waller remarks preceded the release and represent one governor’s view; no post-release policy decision or market reaction is claimed.",
         "Big Bend order is interim; underlying litigation unresolved.",
         "France attribution is France’s; Iran response not reported in opened sources.",
         "Abu Dhabi talks ongoing; Kushner quotes come via Russian media as reported by Interfax Ukraine; casualty figure via Guardian citing Kyiv Independent.",
@@ -189,7 +189,7 @@
       "email/2026-11-03/banner.gif": "c568efcc018d5e8913438ab2fbd68d553c47bc672487f141966b35176f327f6a"
     },
     "nov9_without_nav_sha256": "9e16c6cdc7c24b8331323699cb4d1aebb590e4dc12677b958e8e75cbdfea15b3",
-    "frozen_nov10_normalized_sha256": "788bdb219a0ca1c6c61eb0f9b41fe79e54c0540160c83be466efdfdef218004b",
+    "frozen_nov10_normalized_sha256": "339a25da11cc4eb7bba2375832e30d64d2393b5ab7cf60af55ae2d19f0dfd3da",
     "frozen_first_image": "https://images.unsplash.com/photo-1542320728179-bda01e6f5c73?fm=jpg&fit=crop&w=1280&h=720&q=80",
     "homes": {
       "index.html": {
@@ -382,5 +382,85 @@
     "tests/interactions.test.cjs": "7641b6818f4ba4bbfdd6deeb677896f6a7b91b105c72f79b645dfdc828aca3f9",
     "tests/links_test.py": "d0bb0db572d60c7512d415fe2f72df91ef304cf1bf05edc06e01b6537606289f"
   },
-  "fixture_edits_sha256": "3dd449c0a944ded6b8fd780567de336269627be2c058302390daf0960c10f128"
+  "fixture_edits_sha256": "3dd449c0a944ded6b8fd780567de336269627be2c058302390daf0960c10f128",
+  "cpi_revision": {
+    "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "parent_approved": true,
+    "web_changes": {
+      "index.html": {
+        "before_sha256": "4a5fe45011d23adeeb09ef8172e6d52d8c38c90a4da88c2a0222b24a875cdbf4",
+        "after_sha256": "4e0fa811cd51e2b0c77201c2f72cf8719ed492af96d69d9efb8aad4bbfeb17b8",
+        "replacements": [
+          {
+            "old": "Waller Backs a December Rate Hike.\\nThe Supreme Court Clears Big Bend Wall Work.\\nFrance Blames Iran for Freezer Hacks.",
+            "new": "October Prices Rise 0.4%.\\nThe Supreme Court Clears Big Bend Wall Work.\\nFrance Blames Iran for Freezer Hacks.",
+            "count": 1
+          },
+          {
+            "old": "A Fed governor backs a December hike, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+            "new": "October consumer prices rose 0.4%, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+            "count": 1
+          }
+        ]
+      },
+      "editions/index.html": {
+        "before_sha256": "52ee8e573e6e843832e6cd591a9bf6c0a509142c3e5c363f29180337fc8b0ed3",
+        "after_sha256": "36146aff21379977cd37dbf59c75af67c39288ca592629f864a0318444644c04",
+        "replacements": [
+          {
+            "old": "Waller Backs a December Rate Hike.\\nThe Supreme Court Clears Big Bend Wall Work.\\nFrance Blames Iran for Freezer Hacks.",
+            "new": "October Prices Rise 0.4%.\\nThe Supreme Court Clears Big Bend Wall Work.\\nFrance Blames Iran for Freezer Hacks.",
+            "count": 1
+          },
+          {
+            "old": "A Fed governor backs a December hike, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+            "new": "October consumer prices rose 0.4%, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+            "count": 1
+          }
+        ]
+      },
+      "editions/2026-11-10.html": {
+        "before_sha256": "5f216108e185a62dd121040fb58909ebb3b8a88790e948bced79c0db4ca245bf",
+        "after_sha256": "1c4de79876a63d4a5515a138ae12ce91902b8e6f92967baf1a6d8b07dd679026",
+        "replacements": [
+          {
+            "old": "Waller Backs a December Rate Hike. The Supreme Court Clears Big Bend Wall Work. France Blames Iran for Freezer Hacks.",
+            "new": "October Prices Rise 0.4%. The Supreme Court Clears Big Bend Wall Work. France Blames Iran for Freezer Hacks.",
+            "count": 2
+          },
+          {
+            "old": "Waller+Backs+a+December+Rate+Hike.+The+Supreme+Court+Clears+Big+Bend+Wall+Work.+France+Blames+Iran+for+Freezer+Hacks.",
+            "new": "October+Prices+Rise+0.4%25.+The+Supreme+Court+Clears+Big+Bend+Wall+Work.+France+Blames+Iran+for+Freezer+Hacks.",
+            "count": 3
+          },
+          {
+            "old": "A Fed governor backs a December hike, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+            "new": "October consumer prices rose 0.4%, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+            "count": 3
+          },
+          {
+            "old": "A Fed Governor Backs a December Rate Hike Before Inflation Data",
+            "new": "October Prices Rise 0.4% as Waller Backs a December Hike",
+            "count": 2
+          },
+          {
+            "old": "Federal Reserve Governor Christopher Waller said Tuesday that he would support a quarter point rate increase in December. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">CNBC reports that he spoke in London</a> and said a half point move should be considered if inflation runs hotter than expected.",
+            "new": "Before Tuesday’s inflation release, Federal Reserve Governor Christopher Waller said that he would support a quarter point rate increase in December. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">CNBC reports that he spoke in London</a> and said a half point move should be considered if inflation runs hotter than expected.",
+            "count": 1
+          },
+          {
+            "old": "His remarks came hours before the October consumer price index release. <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports that economists expect prices to rise 0.3% for the month</a>, after a 0.6% increase previously. <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html\">Yahoo Finance reports that stock futures were little changed</a> after Monday’s rally.",
+            "new": "<a href=\"https://www.bls.gov/news.release/cpi.nr0.htm\">The Bureau of Labor Statistics reported that consumer prices rose 0.4% in October</a>, after a 0.6% increase in September. Core prices, excluding food and energy, rose 0.3%, matching September. Both monthly figures are seasonally adjusted. BLS did not publish annual headline or core rates because the October 2025 indexes were unavailable following last year’s lapse in appropriations.",
+            "count": 1
+          },
+          {
+            "old": "<strong>Why it matters.</strong> Higher rates raise borrowing costs for households and businesses. <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports that two year yields rose as traders moved to fully price in a December increase</a>. The Fed’s next policy meeting is scheduled for Dec. 8 and 9, <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">according to CNBC</a>.",
+            "new": "<strong>Why it matters.</strong> Higher rates raise borrowing costs for households and businesses. Waller’s remarks represent one governor’s view, not a new Fed decision. The Fed’s next policy meeting is scheduled for Dec. 8 and 9, <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">according to CNBC</a>.",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "immutable_build_unchanged": true
+  }
 }
