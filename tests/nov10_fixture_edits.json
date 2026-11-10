@@ -1,0 +1,26 @@
+{
+  "tests/interactions.test.cjs": [
+    [
+      "config.editions[0].date, '2026-11-09'",
+      "config.editions[0].date, '2026-11-10'"
+    ],
+    [
+      "config.editions[0].url, 'https://factsfirstdaily.com/editions/2026-11-09.html'",
+      "config.editions[0].url, 'https://factsfirstdaily.com/editions/2026-11-10.html'"
+    ],
+    [
+      "config.editions.length, 8",
+      "config.editions.length, 9"
+    ],
+    [
+      "all 8 edition destinations",
+      "all 9 edition destinations"
+    ]
+  ],
+  "tests/links_test.py": [
+    [
+      "expected_latest = \"2026-11-09\" if",
+      "expected_latest = \"2026-11-10\" if p.name == \"2026-11-10.html\" else \"2026-11-09\" if"
+    ]
+  ]
+}

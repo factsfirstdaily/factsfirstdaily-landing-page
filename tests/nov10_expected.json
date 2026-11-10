@@ -1,0 +1,386 @@
+{
+  "brand": "factsfirstdaily",
+  "date": "2026-11-10",
+  "old": "2026-11-09",
+  "content": {
+    "title": "Waller Backs a December Rate Hike.\nThe Supreme Court Clears Big Bend Wall Work.\nFrance Blames Iran for Freezer Hacks.",
+    "subject": "Waller Backs a December Rate Hike Before Inflation Data",
+    "preview_text": "The Supreme Court clears Big Bend wall work, France blames Iran and Ukraine talks open.",
+    "description": "A Fed governor backs a December hike, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+    "contents_extra": "Abu Dhabi peace talks, Iran diplomacy, trivia and your poll",
+    "stories": [
+      {
+        "topic": "nov10-waller-december-rate-hike-cpi",
+        "title": "A Fed Governor Backs a December Rate Hike Before Inflation Data",
+        "region": "us",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1542320728179-bda01e6f5c73?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/federal-reserve-bank-san-francisco-KvX3L_QXTgM",
+          "alt": "Federal Reserve Bank of San Francisco arcade; file photo.",
+          "verified": true
+        },
+        "paragraphs": [
+          "Federal Reserve Governor Christopher Waller said Tuesday that he would support a quarter point rate increase in December. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">CNBC reports that he spoke in London</a> and said a half point move should be considered if inflation runs hotter than expected.",
+          "Waller argued that Fed messaging around the October meeting led markets to expect more increases. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">He warned that failing to deliver them would put the Fed’s credibility at risk</a>. The Fed held rates in October, with two officials dissenting.",
+          "His remarks came hours before the October consumer price index release. <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports that economists expect prices to rise 0.3% for the month</a>, after a 0.6% increase previously. <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html\">Yahoo Finance reports that stock futures were little changed</a> after Monday’s rally.",
+          "<strong>Why it matters.</strong> Higher rates raise borrowing costs for households and businesses. <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports that two year yields rose as traders moved to fully price in a December increase</a>. The Fed’s next policy meeting is scheduled for Dec. 8 and 9, <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">according to CNBC</a>."
+        ]
+      },
+      {
+        "topic": "nov10-supreme-court-big-bend-border-wall",
+        "title": "The Supreme Court Lets Big Bend Border Wall Construction Resume",
+        "region": "us",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1775449074505-7393f9077483?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/a-river-flows-through-a-canyon-with-rocky-cliffs-H5VC8kwiKuA",
+          "alt": "River canyon in Big Bend National Park, Texas; file photo.",
+          "verified": true
+        },
+        "paragraphs": [
+          "The Supreme Court on Monday allowed the Trump administration to resume border wall construction in the Big Bend region of West Texas. <a href=\"https://www.scotusblog.com/2026/11/supreme-court-allows-trump-administration-to-continue-border-wall-construction/\">SCOTUSblog reports that the unsigned order paused a district judge’s ruling</a> that had halted the project.",
+          "Only Justice Ketanji Brown Jackson indicated that she would have denied the request, without explaining why. <a href=\"https://www.ksat.com/news/local/2026/11/09/trumps-big-bend-border-wall-construction-can-resume-after-us-supreme-court-ruling/\">The Texas Tribune reports that the order holds</a> while the administration asks the court to review the case.",
+          "Judge Kathleen Cardone had found that challengers were likely to win their argument against waivers of environmental laws. <a href=\"https://www.scotusblog.com/2026/11/supreme-court-allows-trump-administration-to-continue-border-wall-construction/\">SCOTUSblog reports that she noted the region accounts for a small share of border apprehensions</a>. The administration argued that Congress clearly authorized the waivers.",
+          "<strong>Why it matters.</strong> The region includes parts of Big Bend National Park. <a href=\"https://www.scotusblog.com/2026/11/supreme-court-allows-trump-administration-to-continue-border-wall-construction/\">Challengers warned that construction would bring blasting and bulldozing to a remote landscape</a>. <a href=\"https://www.ksat.com/news/local/2026/11/09/trumps-big-bend-border-wall-construction-can-resume-after-us-supreme-court-ruling/\">The court said the government’s interest outweighs the alleged environmental harm</a>. The underlying case is not yet resolved."
+        ]
+      },
+      {
+        "topic": "nov10-france-iran-irgc-freezer-cyberattacks",
+        "title": "France Blames Iran’s Revolutionary Guards for Supermarket Freezer Hacks",
+        "region": "world",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1755935776861-39d40cc8261b?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/frozen-packaged-meat-in-a-supermarket-freezer-JJVIrAkx5ow",
+          "alt": "Frozen goods in a supermarket freezer case; illustrative file photo.",
+          "verified": true
+        },
+        "paragraphs": [
+          "France on Monday blamed Iran’s Revolutionary Guards for cyberattacks that disrupted supermarket refrigerators and freezers last month. <a href=\"https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges\">The Guardian reports that the foreign minister called the attack unprecedented</a> and promised sanctions across Europe.",
+          "Hackers overrode thermostats in as many as 700 stores in October, pushing some temperatures above 50C. <a href=\"https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges\">The Guardian reports that some stores discarded entire inventories of perishable food</a>. France also summoned Iran’s ambassador.",
+          "Paris prosecutor Laure Beccuau said investigators identified methods linked to the Iranian group Shahid Kaveh. <a href=\"https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges\">The Guardian reports that the evidence cited included Farsi and Iranian IP addresses</a>. <a href=\"https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/\">TechCrunch reports that blood banks were also hacked</a>, but those attacks were stopped before any blood spoiled.",
+          "<strong>Why it matters.</strong> The attribution turns a retail disruption into a security dispute between Europe and Iran. <a href=\"https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/\">TechCrunch reports that some affected controllers no longer receive security fixes</a>. Iran’s consulate in New York did not immediately respond to TechCrunch’s request for comment."
+        ]
+      },
+      {
+        "topic": "nov10-abu-dhabi-ukraine-russia-us-talks",
+        "title": "Ukraine, Russia and the United States Open Talks in Abu Dhabi",
+        "region": "world",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1734009775179-07f428483783?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/skyscrapers-reflecting-orange-sky-in-abu-dhabi-ytrAZCINPM4",
+          "alt": "Glass towers in Abu Dhabi at sunset; file photo, not the talks.",
+          "verified": true
+        },
+        "paragraphs": [
+          "Negotiators from Ukraine, Russia and the United States began talks in Abu Dhabi on Tuesday aimed at ending the war. <a href=\"https://en.interfax.com.ua/news/general/1233888.html\">Interfax Ukraine reports that the delegations moved to a trilateral format</a>, according to Ukrainian negotiator Rustem Umerov.",
+          "Hours earlier, Russia attacked 10 Ukrainian regions overnight. <a href=\"https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates\">The Guardian reports that strikes hit five major energy substations</a>, citing Ukraine’s prime minister. Citing the Kyiv Independent, it reported at least nine deaths over the past day.",
+          "US envoys Steve Witkoff and Jared Kushner joined the negotiations. <a href=\"https://en.interfax.com.ua/news/general/1233888.html\">Interfax Ukraine reports, citing Russian media, that Kushner expected two productive days of talks</a>. He said the talks could create a new shared security system.",
+          "<strong>Why it matters.</strong> <a href=\"https://www.devdiscourse.com/article/international/4004171-reuters-world-news-summary\">Reuters reports that these are the first talks since February</a> aimed at ending the war. <a href=\"https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates\">The Guardian reports that Ukraine’s president accused Russia of intensifying strikes</a> to pressure Kyiv during the talks. No agreement has been announced."
+        ]
+      }
+    ],
+    "deep_dive": {
+      "topic": "nov10-trump-qatar-iran-war-diplomacy",
+      "title": "What Trump’s Talks With Qatar Mean for Ending the Iran War",
+      "region": "world",
+      "photo": {
+        "image_url": "https://images.unsplash.com/photo-1700901742651-6b353164caf3?fm=jpg&fit=crop&w=1280&h=720&q=85",
+        "original_url": "https://unsplash.com/photos/katara-towers-in-lusail-qatar-jJtqDVzozQY",
+        "alt": "Katara Towers in Lusail, Qatar; file photo.",
+        "verified": true
+      },
+      "paragraphs": [
+        "President Trump said Monday there was positive momentum toward ending the war with Iran after meeting Qatar’s prime minister at the White House. <a href=\"https://www.arabnews.com/middle-east/trump-says-iran-war-is-militarily-effectively-over-after-qatar-pm-talks-3010816\">Arab News, citing AFP and AP, reports that he called the war militarily effectively over</a>. He also said a resumption of US strikes was quite unlikely.",
+        "Qatar is leading mediation efforts, and its prime minister described positive discussions with Trump and Vice President JD Vance. <a href=\"https://www.arabnews.com/middle-east/trump-says-iran-war-is-militarily-effectively-over-after-qatar-pm-talks-3010816\">Arab News reports that he said they discussed ways to progress the US and Iran talks</a>. <a href=\"https://www.al-monitor.com/originals/2026/11/trump-meets-qatar-pm-mediators-push-iran-deal\">Al Monitor reports that Trump still described the United States as locked and loaded</a> for renewed combat if needed.",
+        "Major gaps remain between the two sides. <a href=\"https://www.al-monitor.com/originals/2026/11/trump-meets-qatar-pm-mediators-push-iran-deal\">Al Monitor reports that Secretary of State Marco Rubio called some Iranian demands outrageous and ridiculous</a>. <a href=\"https://www.al-monitor.com/originals/2026/11/trump-meets-qatar-pm-mediators-push-iran-deal\">Al Monitor reports that Iran ties talks to seven conditions</a>, including frozen assets and sanctions relief. Iranian security chief Mohsen Rezaei dismissed reports of talks, <a href=\"https://www.arabnews.com/middle-east/trump-says-iran-war-is-militarily-effectively-over-after-qatar-pm-talks-3010816\">Arab News reports</a>.",
+        "<strong>Why it matters.</strong> <a href=\"https://www.al-monitor.com/originals/2026/11/trump-meets-qatar-pm-mediators-push-iran-deal\">Al Monitor reports that a June memorandum unraveled amid disputes over shipping through the Strait of Hormuz</a>. <a href=\"https://www.devdiscourse.com/article/international/4004171-reuters-world-news-summary\">Reuters reports that Trump plans to keep the naval blockade in the Strait of Hormuz for now</a>. <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports that Brent crude fell below $90 a barrel</a> on hopes for peace."
+      ]
+    },
+    "trivia": {
+      "question": "Where did Ukraine, Russia and the United States open talks on Tuesday?",
+      "options": [
+        "Doha",
+        "Abu Dhabi",
+        "Geneva",
+        "Istanbul"
+      ],
+      "correct_letter": "B",
+      "explanation": "B. Abu Dhabi. <a href=\"https://en.interfax.com.ua/news/general/1233888.html\">Interfax Ukraine reports that the delegations moved to a trilateral format there</a>."
+    },
+    "poll": {
+      "question": "Should the Federal Reserve raise interest rates in December?",
+      "slug": "nov10-2026-fed-december-rate-hike"
+    },
+    "briefing": {
+      "World view": [
+        "<strong>Germany may get its first female president.</strong> Chancellor Friedrich Merz nominated Ilse Aigner as his conservatives’ candidate for the largely ceremonial role; <a href=\"https://www.devdiscourse.com/article/international/4004171-reuters-world-news-summary\">Reuters reports</a>.",
+        "<strong>Orbán’s brother is detained.</strong> Hungary’s prime minister said Aron Orbán was held in a people smuggling investigation, which Viktor Orbán called political revenge; <a href=\"https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates\">The Guardian reports</a>."
+      ],
+      "Need to know": [
+        "<strong>A senior Justice official resigns.</strong> Civil division head Brett Shumate is the fourth senior department official to resign since the midterms; <a href=\"https://www.devdiscourse.com/article/international/4004172-reuters-us-domestic-news-summary\">Reuters reports</a>.",
+        "<strong>Jeffries seeks answers on Nvidia.</strong> The House Democratic leader also wants the defense bill to restrict chip sales to China; <a href=\"https://www.devdiscourse.com/article/international/4004172-reuters-us-domestic-news-summary\">Reuters reports</a>."
+      ],
+      "Money & markets": [
+        "<strong>Taiwan’s chipmaker reports strong sales.</strong> TSMC posted a 60% increase in October sales, reflecting its central role in the artificial intelligence build out; <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports</a>.",
+        "<strong>Exxon talks with Venezuela.</strong> ExxonMobil formalized negotiations about operating one or more Venezuelan oil fields; <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports</a>."
+      ],
+      "Future frontiers": [
+        "<strong>Twin probes head for Mars.</strong> Both ESCAPADE spacecraft completed powered Earth flybys and are on target to reach Mars in September 2027; <a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/\">NASA reports</a>.",
+        "<strong>A sensor reads molecular handedness.</strong> Researchers told mirror image amino acids apart using electrical current, though no flight instrument exists yet; <a href=\"https://www.earth.com/space/scientists-designed-a-new-way-to-hunt-for-signs-of-life-in-space-using-electricity-and-artificial-intelligence/\">Earth.com reports</a>."
+      ],
+      "The score": [
+        "<strong>Buffalo beats Minnesota.</strong> The Bills won 23 to 6 on Monday night to move to 7 and 1; <a href=\"https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-wear-down-vikings-23-6\">NBC Sports reports</a>.",
+        "<strong>The college playoff will expand.</strong> The College Football Playoff will grow to 24 teams for the 2027 season under a new ESPN deal; <a href=\"https://www.devdiscourse.com/article/international/4004356-reuters-sports-news-summary\">Reuters reports</a>."
+      ],
+      "Life & culture": [
+        "<strong>Pope Leo meets abuse survivors.</strong> The pope met five survivors of clergy abuse in Buenos Aires during his South America trip; <a href=\"https://www.devdiscourse.com/article/international/4004171-reuters-world-news-summary\">Reuters reports</a>.",
+        "<strong>Trump says he would pardon Pete Rose.</strong> The president told reporters Monday he would give the former baseball player a pardon; <a href=\"https://www.devdiscourse.com/article/international/4004172-reuters-us-domestic-news-summary\">Reuters reports</a>."
+      ]
+    },
+    "qa_notes": {
+      "status": "LOCAL_EDITORIAL_PREPARATION_ONLY; parent review and combined validation required",
+      "uncertainties": [
+        "Waller statement is one governor’s view; CPI release was pending at preparation time and is not reported.",
+        "Big Bend order is interim; underlying litigation unresolved.",
+        "France attribution is France’s; Iran response not reported in opened sources.",
+        "Abu Dhabi talks ongoing; Kushner quotes come via Russian media as reported by Interfax Ukraine; casualty figure via Guardian citing Kyiv Independent.",
+        "Iran diplomacy: Trump optimism contrasts with Rubio caution and Iranian denials; no deal reached."
+      ],
+      "source_review": "All cited URLs opened directly by HTTP GET on 2026-11-10 before cutoff; readable article text preserved. Devdiscourse pages are explicit Reuters syndicated summaries; swissinfo is syndicated Bloomberg.",
+      "photo_review": "All five actual 1280 by 720 JPEGs viewed together. Standard Unsplash license confirmed on each original page. File photos, not event depictions."
+    },
+    "date_line": "Tuesday, November 10, 2026 · 6 min read"
+  },
+  "base_tree": "b9456b2c92540eb7268640a082b15a1eb0d6a76d",
+  "immutable_fingerprint": "4b3122f84a40ea543ffde877e78ae8b8b1c701a1fb9c92e726749e0d8895685a",
+  "baseline": {
+    "files": {
+      "CNAME": "dc2ca368e657045ae82eafdfd58e0e9af518dfbef02ad03992bbdd7e75df83ca",
+      "index.html": "26dcf355b833c2862c838a5d4289c48ca46eb8ae5919443a40c4bc0a66762885",
+      "privacy.html": "e159d9c6ef57f9d4da9637566978c173aeca46e30070d28813bfb169ff861982",
+      "email/polls.js": "2e7b0884adaabac31227d7c1846e3296437095f16250ad26323e3fd60c2ec178",
+      "email/thanks.html": "fcaf14742a86ec079bae62ddad9be86a88bab52e21fe20c52d250bc5e13728bf",
+      "editions/edition.css": "529107c9ce2a0686f6884faee895e4bfc4f370c003f123db126b587e1dca9b30",
+      "editions/2026-11-09.html": "2fed6f7170bd8b8de796a166bb7fda6211f60ca8675e0ed17f6b0843ee37c206",
+      "editions/thanks.html": "fcaf14742a86ec079bae62ddad9be86a88bab52e21fe20c52d250bc5e13728bf",
+      "editions/index.html": "85ad8552eed4fa5b6407b647a0197695aca5f39cf11f0d9609b63939c208170f",
+      "editions/2026-11-08.html": "19dace8b122cab46c72835490191c2cadc794e417b90611f8d0076a0b69239b0",
+      "editions/2026-11-06.html": "2f8c8e3a54915ee0c48626b51d53d87037498473703274c70bca9add9e434535",
+      "editions/2026-11-03.html": "474ab4a8040d3effbcd21c66e6efb6425313c8d0775c907c0f97dc194302c5e7",
+      "editions/2026-11-02.html": "5dd6397f8c0807613e570914e685e9279a4cd8f372d3a770f1fa45ea7af4f47a",
+      "editions/2026-11-07.html": "540c17729860419fab6903f74052cd1f15aed9efa1d247ad6c6f494859db3a9d",
+      "editions/2026-11-05.html": "4d4062806101a2db041aef0e4faf1f50f36e07fdf46ce996dfa55e0397b73a42",
+      "editions/2026-11-01.html": "cec9d87219e7ea79efbb085193a0616ef004bd8b5ccd0ce3d99478414088f321",
+      "tests/nov8_fixture_edits.json": "3d70394bfcde36411301edc89b0b7bb83e6efa9a90931ba085a59d60d80fa061",
+      "tests/test_nov8_site.py": "f23cbd5ebf189e353656fb3f151a33fca7973a977e0253c413dd6a8848a3b969",
+      "tests/interactions.test.cjs": "85803dfde4e86f9002df57f1876df6f7e9fd97b0f846dd248022e7e7e2822031",
+      "tests/test_full_archive.py": "61483982ada232c16a0c4a67b4983b899bf0b285ec0b73c8da1f51db75e9c840",
+      "tests/test_nov9_site.py": "e8dc2762c236acc4e791faa5410798c35988e29d2673a1ee6862992f61eb48e1",
+      "tests/nov7_expected.json": "c187c8a3afa1b341e3ccfbb18b197a6121e6cce22fefd61f63ded81587be5e2b",
+      "tests/poll_browser_test.py": "62485b1be493b22e22de0dee95d37aa236135ff3191d55c5fa93d42e7b077019",
+      "tests/test_nov7_site.py": "ef0510be36493d33018571d37bc061a3d9d62b74321ba44440fa7a33166f7d04",
+      "tests/nov8_expected.json": "7aa414e4fbeffa0bbff962595d3fc27dc680d964129a4445bb6c3273ed50961b",
+      "tests/nov9_expected.json": "c4702eee4ea631c732ea4a3ba0357f412c41ef644f80b50d05bbb745bfa6d7d9",
+      "tests/links_test.py": "d8665fe37ba18c4aa7da2abde84129956caeccc5c9a33b728bffe08dc959c72b",
+      "tests/nov9_fixture_edits.json": "08ebc3c88f8da21670ea1ff23acdb1d759954e7fdb47ba5b515336a77c07f740",
+      "email/2026-11-03/story-measles.png": "d534f9d7d20855fd71306d1daff46669bbe0d155901b3791e4ac2d54e5abc8ea",
+      "email/2026-11-03/story-ebike.png": "b457a160466e8aadf77c117e15df950d0a0b09fe5b2c8813902ecd9693e3be7a",
+      "email/2026-11-03/story-election.png": "f8743aea05f448b36b430ae58d8245567624ccbc3ec3db5d8ecc37898e380a6a",
+      "email/2026-11-03/story-chip.png": "4127fb1d89ce1169185be93478dc9b4374fc9d5c7d8ca66d6ff9d14498783dfc",
+      "email/2026-11-03/banner.gif": "c568efcc018d5e8913438ab2fbd68d553c47bc672487f141966b35176f327f6a"
+    },
+    "nov9_without_nav_sha256": "9e16c6cdc7c24b8331323699cb4d1aebb590e4dc12677b958e8e75cbdfea15b3",
+    "frozen_nov10_normalized_sha256": "788bdb219a0ca1c6c61eb0f9b41fe79e54c0540160c83be466efdfdef218004b",
+    "frozen_first_image": "https://images.unsplash.com/photo-1542320728179-bda01e6f5c73?fm=jpg&fit=crop&w=1280&h=720&q=80",
+    "homes": {
+      "index.html": {
+        "config": {
+          "mailerliteFormAction": "https://assets.mailerlite.com/jsonp/2756267/forms/203044673267173156/subscribe",
+          "mailerliteSignupUrl": "",
+          "privacyPolicyUrl": "https://factsfirstdaily.com/privacy.html",
+          "termsUrl": "",
+          "archiveUrl": "",
+          "editions": [
+            {
+              "title": "Congress Faces a Funding Deadline.\nNvidia Opens an Inquiry.\nEgypt Investigates a Train Collision.",
+              "description": "Congress returns to a crowded fiscal agenda, Nvidia opens an inquiry and Egypt investigates a train collision, plus Paraguay’s banking crisis.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-09.html",
+              "date": "2026-11-09",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1594581979864-36977b15d0dc?fm=jpg&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "White Reportedly Declines.\nTesla Adds a Shift.\nPoland Begins Mourning.",
+              "description": "CNN reports Dana White declined Trump’s press secretary offer, Tesla adds production and Poland mourns, plus Gaza’s flooding emergency.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-08.html",
+              "date": "2026-11-08",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1719947691028-0be6e2dccddd?fm=jpg&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "Miller Moves Up.\nHiring Beats Forecasts.\nKyiv Faces New Strikes.",
+              "description": "Trump changes his chief of staff, employers add jobs and new strikes hit Kyiv before planned peace talks.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-07.html",
+              "date": "2026-11-07",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1485394595691-5411947d63a4?auto=format&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "Raman Wins Los Angeles. A Court Pauses Trump’s Arch. Cash Divides the First Home Market.",
+              "description": "Los Angeles chooses Raman, a court pauses Trump’s arch, and family wealth reshapes access to a first home.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-06.html",
+              "date": "2026-11-06",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1572063047663-56d024aaa28e?w=1280&h=720&fit=crop&q=80"
+            },
+            {
+              "title": "Democrats win the House and Senate. Iran says mines hit four tankers. Indonesia's leader fires his top aide.",
+              "description": "Democrats will control both chambers of Congress, Iran says mines hit four tankers near Hormuz, and Indonesia's president fires his chief of staff.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-05.html",
+              "date": "2026-11-05",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1520525003249-2b9cdda513bc?w=1280&h=720&fit=crop&q=80"
+            },
+            {
+              "title": "America Votes Today. The U.S. Just Bombed Iran. And a Disease We Thought Was Gone Killed a Child.",
+              "description": "Control of Congress is on the ballot. The U.S. bombs Iran's launch island. And New York's first measles death in decades.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-03.html",
+              "date": "2026-11-03",
+              "readingTime": "4 min read",
+              "image": "https://images.unsplash.com/photo-1540908390241-82158ab62887?w=1280&fit=crop&q=80"
+            },
+            {
+              "title": "Oil Just Crashed 7%. Apple’s New Boss Aced His First Test. And Millions of Kids Are Getting SpaceX Stock.",
+              "description": "Oil crashes 7% on Iran deal hopes, Apple's new CEO aces his first earnings, and millions of teens are getting SpaceX stock.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-02.html",
+              "date": "2026-11-02",
+              "readingTime": "4 min read",
+              "image": "https://images.unsplash.com/photo-1562237548-1af9481f035a?w=1280&fit=crop&q=80"
+            },
+            {
+              "title": "Google Lost $500 Billion in a Day. Hackers Stole $6.3 Billion in Crypto. And the Fed Isn’t Done Yet.",
+              "description": "Google's parent lost $500B in a day, hackers pulled off the biggest crypto heist ever, and the Fed hinted it's not done.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-01.html",
+              "date": "2026-11-01",
+              "readingTime": "4 min read",
+              "image": "https://images.unsplash.com/photo-1785623354485-b663cb9afa0b?w=1280&fit=crop&q=80"
+            }
+          ]
+        },
+        "locked": {
+          "style": [
+            "f676ab7d5b86845b6bfe378b07a41dfbe14314741bca4892d0a26b39e5d6a1ed"
+          ],
+          "header": [
+            "7ab09b570cf7b9897eb8f4ed69397ba7f6d8e30e2c4ffa49dcaacd7b74e816d4"
+          ],
+          "form": [
+            "2e54eafa4728638b5d08dc11848ac78c1a7d86e344d518e8073cb7ef32b4cb91",
+            "662e60e764250a0f99d229942017a691ecfdc0ff8700bf61f65989c2bf2faf72"
+          ],
+          "scripts": [
+            "99fc3de190f89ca45b7e623b6b135d10fd33cbd3a7f27848d1c18a75f4ce207b"
+          ],
+          "topics": "5f13177bd669be08c2b468326fe0346f03c80c107f32092d2684aa3ab348db8d",
+          "route_nov10": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+        }
+      },
+      "editions/index.html": {
+        "config": {
+          "mailerliteFormAction": "https://assets.mailerlite.com/jsonp/2756267/forms/203044673267173156/subscribe",
+          "mailerliteSignupUrl": "",
+          "privacyPolicyUrl": "https://factsfirstdaily.com/privacy.html",
+          "termsUrl": "",
+          "archiveUrl": "",
+          "editions": [
+            {
+              "title": "Congress Faces a Funding Deadline.\nNvidia Opens an Inquiry.\nEgypt Investigates a Train Collision.",
+              "description": "Congress returns to a crowded fiscal agenda, Nvidia opens an inquiry and Egypt investigates a train collision, plus Paraguay’s banking crisis.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-09.html",
+              "date": "2026-11-09",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1594581979864-36977b15d0dc?fm=jpg&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "White Reportedly Declines.\nTesla Adds a Shift.\nPoland Begins Mourning.",
+              "description": "CNN reports Dana White declined Trump’s press secretary offer, Tesla adds production and Poland mourns, plus Gaza’s flooding emergency.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-08.html",
+              "date": "2026-11-08",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1719947691028-0be6e2dccddd?fm=jpg&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "Miller Moves Up.\nHiring Beats Forecasts.\nKyiv Faces New Strikes.",
+              "description": "Trump changes his chief of staff, employers add jobs and new strikes hit Kyiv before planned peace talks.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-07.html",
+              "date": "2026-11-07",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1485394595691-5411947d63a4?auto=format&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "Raman Wins Los Angeles. A Court Pauses Trump’s Arch. Cash Divides the First Home Market.",
+              "description": "Los Angeles chooses Raman, a court pauses Trump’s arch, and family wealth reshapes access to a first home.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-06.html",
+              "date": "2026-11-06",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1572063047663-56d024aaa28e?w=1280&h=720&fit=crop&q=80"
+            },
+            {
+              "title": "Democrats win the House and Senate. Iran says mines hit four tankers. Indonesia's leader fires his top aide.",
+              "description": "Democrats will control both chambers of Congress, Iran says mines hit four tankers near Hormuz, and Indonesia's president fires his chief of staff.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-05.html",
+              "date": "2026-11-05",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1520525003249-2b9cdda513bc?w=1280&h=720&fit=crop&q=80"
+            },
+            {
+              "title": "America Votes Today. The U.S. Just Bombed Iran. And a Disease We Thought Was Gone Killed a Child.",
+              "description": "Control of Congress is on the ballot. The U.S. bombs Iran's launch island. And New York's first measles death in decades.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-03.html",
+              "date": "2026-11-03",
+              "readingTime": "4 min read",
+              "image": "https://images.unsplash.com/photo-1540908390241-82158ab62887?w=1280&fit=crop&q=80"
+            },
+            {
+              "title": "Oil Just Crashed 7%. Apple’s New Boss Aced His First Test. And Millions of Kids Are Getting SpaceX Stock.",
+              "description": "Oil crashes 7% on Iran deal hopes, Apple's new CEO aces his first earnings, and millions of teens are getting SpaceX stock.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-02.html",
+              "date": "2026-11-02",
+              "readingTime": "4 min read",
+              "image": "https://images.unsplash.com/photo-1562237548-1af9481f035a?w=1280&fit=crop&q=80"
+            },
+            {
+              "title": "Google Lost $500 Billion in a Day. Hackers Stole $6.3 Billion in Crypto. And the Fed Isn’t Done Yet.",
+              "description": "Google's parent lost $500B in a day, hackers pulled off the biggest crypto heist ever, and the Fed hinted it's not done.",
+              "url": "https://factsfirstdaily.com/editions/2026-11-01.html",
+              "date": "2026-11-01",
+              "readingTime": "4 min read",
+              "image": "https://images.unsplash.com/photo-1785623354485-b663cb9afa0b?w=1280&fit=crop&q=80"
+            }
+          ]
+        },
+        "locked": {
+          "style": [
+            "f676ab7d5b86845b6bfe378b07a41dfbe14314741bca4892d0a26b39e5d6a1ed"
+          ],
+          "header": [
+            "7ab09b570cf7b9897eb8f4ed69397ba7f6d8e30e2c4ffa49dcaacd7b74e816d4"
+          ],
+          "form": [
+            "824e2062c010b26b01f3e38554092db71deeaf7add98fdbed3324672bf6b842e",
+            "128f5da225f3966ea58c98994efd0fc4990c29932ed9ef28566942e43f85e8d6"
+          ],
+          "scripts": [
+            "99fc3de190f89ca45b7e623b6b135d10fd33cbd3a7f27848d1c18a75f4ce207b"
+          ],
+          "topics": "dc92410e089c5debab4e07b5e31a7e99b145f62b3dc5eccad3dfe4e4ee49cc0d",
+          "route_nov10": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+        }
+      }
+    }
+  },
+  "fixture_file_sha256": {
+    "tests/interactions.test.cjs": "7641b6818f4ba4bbfdd6deeb677896f6a7b91b105c72f79b645dfdc828aca3f9",
+    "tests/links_test.py": "d0bb0db572d60c7512d415fe2f72df91ef304cf1bf05edc06e01b6537606289f"
+  },
+  "fixture_edits_sha256": "3dd449c0a944ded6b8fd780567de336269627be2c058302390daf0960c10f128"
+}
