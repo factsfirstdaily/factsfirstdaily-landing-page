@@ -1,0 +1,131 @@
+{
+  "brand": "factsfirstdaily",
+  "authority": "Parent explicit reviewed CPI patch Nov10; original today authorization1794314759.816279",
+  "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
+  "baseline": {
+    "CNAME": "dc2ca368e657045ae82eafdfd58e0e9af518dfbef02ad03992bbdd7e75df83ca",
+    "index.html": "4a5fe45011d23adeeb09ef8172e6d52d8c38c90a4da88c2a0222b24a875cdbf4",
+    "privacy.html": "e159d9c6ef57f9d4da9637566978c173aeca46e30070d28813bfb169ff861982",
+    "email/polls.js": "2e7b0884adaabac31227d7c1846e3296437095f16250ad26323e3fd60c2ec178",
+    "email/thanks.html": "fcaf14742a86ec079bae62ddad9be86a88bab52e21fe20c52d250bc5e13728bf",
+    "editions/edition.css": "529107c9ce2a0686f6884faee895e4bfc4f370c003f123db126b587e1dca9b30",
+    "editions/2026-11-09.html": "11bb293d899b6803fdd049541a9f1169710446408703f4513fcc3fae58e917ad",
+    "editions/thanks.html": "fcaf14742a86ec079bae62ddad9be86a88bab52e21fe20c52d250bc5e13728bf",
+    "editions/index.html": "52ee8e573e6e843832e6cd591a9bf6c0a509142c3e5c363f29180337fc8b0ed3",
+    "editions/2026-11-10.html": "5f216108e185a62dd121040fb58909ebb3b8a88790e948bced79c0db4ca245bf",
+    "editions/2026-11-08.html": "19dace8b122cab46c72835490191c2cadc794e417b90611f8d0076a0b69239b0",
+    "editions/2026-11-06.html": "2f8c8e3a54915ee0c48626b51d53d87037498473703274c70bca9add9e434535",
+    "editions/2026-11-03.html": "474ab4a8040d3effbcd21c66e6efb6425313c8d0775c907c0f97dc194302c5e7",
+    "editions/2026-11-02.html": "5dd6397f8c0807613e570914e685e9279a4cd8f372d3a770f1fa45ea7af4f47a",
+    "editions/2026-11-07.html": "540c17729860419fab6903f74052cd1f15aed9efa1d247ad6c6f494859db3a9d",
+    "editions/2026-11-05.html": "4d4062806101a2db041aef0e4faf1f50f36e07fdf46ce996dfa55e0397b73a42",
+    "editions/2026-11-01.html": "cec9d87219e7ea79efbb085193a0616ef004bd8b5ccd0ce3d99478414088f321",
+    "tests/nov8_fixture_edits.json": "3d70394bfcde36411301edc89b0b7bb83e6efa9a90931ba085a59d60d80fa061",
+    "tests/test_nov8_site.py": "f23cbd5ebf189e353656fb3f151a33fca7973a977e0253c413dd6a8848a3b969",
+    "tests/nov10_expected.json": "722b7835761305489ad67a76b642230ca405bcbc28fdb0aa3dc2e713affc36d4",
+    "tests/interactions.test.cjs": "7641b6818f4ba4bbfdd6deeb677896f6a7b91b105c72f79b645dfdc828aca3f9",
+    "tests/test_full_archive.py": "61483982ada232c16a0c4a67b4983b899bf0b285ec0b73c8da1f51db75e9c840",
+    "tests/test_nov9_site.py": "e8dc2762c236acc4e791faa5410798c35988e29d2673a1ee6862992f61eb48e1",
+    "tests/nov7_expected.json": "c187c8a3afa1b341e3ccfbb18b197a6121e6cce22fefd61f63ded81587be5e2b",
+    "tests/poll_browser_test.py": "62485b1be493b22e22de0dee95d37aa236135ff3191d55c5fa93d42e7b077019",
+    "tests/nov10_fixture_edits.json": "3dd449c0a944ded6b8fd780567de336269627be2c058302390daf0960c10f128",
+    "tests/test_nov7_site.py": "ef0510be36493d33018571d37bc061a3d9d62b74321ba44440fa7a33166f7d04",
+    "tests/nov8_expected.json": "7aa414e4fbeffa0bbff962595d3fc27dc680d964129a4445bb6c3273ed50961b",
+    "tests/nov9_expected.json": "c4702eee4ea631c732ea4a3ba0357f412c41ef644f80b50d05bbb745bfa6d7d9",
+    "tests/links_test.py": "d0bb0db572d60c7512d415fe2f72df91ef304cf1bf05edc06e01b6537606289f",
+    "tests/nov9_fixture_edits.json": "08ebc3c88f8da21670ea1ff23acdb1d759954e7fdb47ba5b515336a77c07f740",
+    "tests/test_nov10_site.py": "444e1bad3fa97a47e9fbfdab40780c45b0e8e35061b3ab31ce8e1978997e3f83",
+    "email/2026-11-03/story-measles.png": "d534f9d7d20855fd71306d1daff46669bbe0d155901b3791e4ac2d54e5abc8ea",
+    "email/2026-11-03/story-ebike.png": "b457a160466e8aadf77c117e15df950d0a0b09fe5b2c8813902ecd9693e3be7a",
+    "email/2026-11-03/story-election.png": "f8743aea05f448b36b430ae58d8245567624ccbc3ec3db5d8ecc37898e380a6a",
+    "email/2026-11-03/story-chip.png": "4127fb1d89ce1169185be93478dc9b4374fc9d5c7d8ca66d6ff9d14498783dfc",
+    "email/2026-11-03/banner.gif": "c568efcc018d5e8913438ab2fbd68d553c47bc672487f141966b35176f327f6a"
+  },
+  "allowed": [
+    "editions/2026-11-10.html",
+    "editions/index.html",
+    "index.html",
+    "tests/nov10_cpi_revision.json",
+    "tests/nov10_expected.json",
+    "tests/test_nov10_cpi_revision.py",
+    "tests/test_nov10_site.py"
+  ],
+  "web_changes": {
+    "index.html": {
+      "before_sha256": "4a5fe45011d23adeeb09ef8172e6d52d8c38c90a4da88c2a0222b24a875cdbf4",
+      "after_sha256": "4e0fa811cd51e2b0c77201c2f72cf8719ed492af96d69d9efb8aad4bbfeb17b8",
+      "replacements": [
+        {
+          "old": "Waller Backs a December Rate Hike.\\nThe Supreme Court Clears Big Bend Wall Work.\\nFrance Blames Iran for Freezer Hacks.",
+          "new": "October Prices Rise 0.4%.\\nThe Supreme Court Clears Big Bend Wall Work.\\nFrance Blames Iran for Freezer Hacks.",
+          "count": 1
+        },
+        {
+          "old": "A Fed governor backs a December hike, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+          "new": "October consumer prices rose 0.4%, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+          "count": 1
+        }
+      ]
+    },
+    "editions/index.html": {
+      "before_sha256": "52ee8e573e6e843832e6cd591a9bf6c0a509142c3e5c363f29180337fc8b0ed3",
+      "after_sha256": "36146aff21379977cd37dbf59c75af67c39288ca592629f864a0318444644c04",
+      "replacements": [
+        {
+          "old": "Waller Backs a December Rate Hike.\\nThe Supreme Court Clears Big Bend Wall Work.\\nFrance Blames Iran for Freezer Hacks.",
+          "new": "October Prices Rise 0.4%.\\nThe Supreme Court Clears Big Bend Wall Work.\\nFrance Blames Iran for Freezer Hacks.",
+          "count": 1
+        },
+        {
+          "old": "A Fed governor backs a December hike, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+          "new": "October consumer prices rose 0.4%, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+          "count": 1
+        }
+      ]
+    },
+    "editions/2026-11-10.html": {
+      "before_sha256": "5f216108e185a62dd121040fb58909ebb3b8a88790e948bced79c0db4ca245bf",
+      "after_sha256": "1c4de79876a63d4a5515a138ae12ce91902b8e6f92967baf1a6d8b07dd679026",
+      "replacements": [
+        {
+          "old": "Waller Backs a December Rate Hike. The Supreme Court Clears Big Bend Wall Work. France Blames Iran for Freezer Hacks.",
+          "new": "October Prices Rise 0.4%. The Supreme Court Clears Big Bend Wall Work. France Blames Iran for Freezer Hacks.",
+          "count": 2
+        },
+        {
+          "old": "Waller+Backs+a+December+Rate+Hike.+The+Supreme+Court+Clears+Big+Bend+Wall+Work.+France+Blames+Iran+for+Freezer+Hacks.",
+          "new": "October+Prices+Rise+0.4%25.+The+Supreme+Court+Clears+Big+Bend+Wall+Work.+France+Blames+Iran+for+Freezer+Hacks.",
+          "count": 3
+        },
+        {
+          "old": "A Fed governor backs a December hike, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+          "new": "October consumer prices rose 0.4%, the Supreme Court clears border wall work and France blames Iran for freezer hacks.",
+          "count": 3
+        },
+        {
+          "old": "A Fed Governor Backs a December Rate Hike Before Inflation Data",
+          "new": "October Prices Rise 0.4% as Waller Backs a December Hike",
+          "count": 2
+        },
+        {
+          "old": "Federal Reserve Governor Christopher Waller said Tuesday that he would support a quarter point rate increase in December. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">CNBC reports that he spoke in London</a> and said a half point move should be considered if inflation runs hotter than expected.",
+          "new": "Before Tuesday’s inflation release, Federal Reserve Governor Christopher Waller said that he would support a quarter point rate increase in December. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">CNBC reports that he spoke in London</a> and said a half point move should be considered if inflation runs hotter than expected.",
+          "count": 1
+        },
+        {
+          "old": "His remarks came hours before the October consumer price index release. <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports that economists expect prices to rise 0.3% for the month</a>, after a 0.6% increase previously. <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html\">Yahoo Finance reports that stock futures were little changed</a> after Monday’s rally.",
+          "new": "<a href=\"https://www.bls.gov/news.release/cpi.nr0.htm\">The Bureau of Labor Statistics reported that consumer prices rose 0.4% in October</a>, after a 0.6% increase in September. Core prices, excluding food and energy, rose 0.3%, matching September. Both monthly figures are seasonally adjusted. BLS did not publish annual headline or core rates because the October 2025 indexes were unavailable following last year’s lapse in appropriations.",
+          "count": 1
+        },
+        {
+          "old": "<strong>Why it matters.</strong> Higher rates raise borrowing costs for households and businesses. <a href=\"https://www.swissinfo.ch/eng/us-stock-rebound-pauses-on-wallers-rate-warning%3A-markets-wrap/92354501\">Bloomberg reports that two year yields rose as traders moved to fully price in a December increase</a>. The Fed’s next policy meeting is scheduled for Dec. 8 and 9, <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">according to CNBC</a>.",
+          "new": "<strong>Why it matters.</strong> Higher rates raise borrowing costs for households and businesses. Waller’s remarks represent one governor’s view, not a new Fed decision. The Fed’s next policy meeting is scheduled for Dec. 8 and 9, <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">according to CNBC</a>.",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "immutable_build_unchanged": true,
+  "esp_writes": false,
+  "poll_changes": false
+}
