@@ -1,0 +1,673 @@
+{
+  "base_commit": "5ef376b50356ab7f43df1a903e24e80df7d5cffb",
+  "baseline": {
+    "CNAME": "dc2ca368e657045ae82eafdfd58e0e9af518dfbef02ad03992bbdd7e75df83ca",
+    "index.html": "285063ca385cee812959c6721c500a31e1d17727d530c9a31ff3ec4fd2b67879",
+    "privacy.html": "e159d9c6ef57f9d4da9637566978c173aeca46e30070d28813bfb169ff861982",
+    "email/polls.js": "2e7b0884adaabac31227d7c1846e3296437095f16250ad26323e3fd60c2ec178",
+    "email/thanks.html": "fcaf14742a86ec079bae62ddad9be86a88bab52e21fe20c52d250bc5e13728bf",
+    "editions/edition.css": "529107c9ce2a0686f6884faee895e4bfc4f370c003f123db126b587e1dca9b30",
+    "editions/2026-11-09.html": "11bb293d899b6803fdd049541a9f1169710446408703f4513fcc3fae58e917ad",
+    "editions/thanks.html": "fcaf14742a86ec079bae62ddad9be86a88bab52e21fe20c52d250bc5e13728bf",
+    "editions/index.html": "55d2a02ecc8148daa6bfa786cc2872222621dd3ca388f417ea9b449784972783",
+    "editions/2026-11-12.html": "c2c17fc77ca817933d8b54bbdd917255d97908cb28a798d85895ad8b441a6d03",
+    "editions/2026-11-10.html": "1b1ecbd992bef0f85843475f3036a28f017510e93f7371e6ec7ff608b218438a",
+    "editions/2026-11-11.html": "16e90132e6109feb7b2cccf86190ab20ef3bee75dd1fa2739b35480a79869a36",
+    "editions/2026-11-08.html": "19dace8b122cab46c72835490191c2cadc794e417b90611f8d0076a0b69239b0",
+    "editions/2026-11-06.html": "2f8c8e3a54915ee0c48626b51d53d87037498473703274c70bca9add9e434535",
+    "editions/2026-11-03.html": "474ab4a8040d3effbcd21c66e6efb6425313c8d0775c907c0f97dc194302c5e7",
+    "editions/2026-11-02.html": "5dd6397f8c0807613e570914e685e9279a4cd8f372d3a770f1fa45ea7af4f47a",
+    "editions/2026-11-07.html": "540c17729860419fab6903f74052cd1f15aed9efa1d247ad6c6f494859db3a9d",
+    "editions/2026-11-05.html": "4d4062806101a2db041aef0e4faf1f50f36e07fdf46ce996dfa55e0397b73a42",
+    "editions/2026-11-01.html": "cec9d87219e7ea79efbb085193a0616ef004bd8b5ccd0ce3d99478414088f321",
+    "tests/nov8_fixture_edits.json": "3d70394bfcde36411301edc89b0b7bb83e6efa9a90931ba085a59d60d80fa061",
+    "tests/nov11_expected.json": "5fb9322068b323f9b327977bdb907d94a5555955828e9f6b6c148da0339c77fb",
+    "tests/test_nov8_site.py": "f23cbd5ebf189e353656fb3f151a33fca7973a977e0253c413dd6a8848a3b969",
+    "tests/nov10_expected.json": "96d41ad2ed867c5dfafde40a342cb296651b9c272c4b877e2b036d4709c870f9",
+    "tests/nov10_cpi_revision.json": "cdf76864c0c5a34d613a719db58dd1252da4adea50ee6802d23ddf3d3e8d8c12",
+    "tests/nov12_expected.json": "a57d4e95f95f8842bdcc727de6cbb1ba38bbbaef148abdf44f0f36611fbd3f77",
+    "tests/interactions.test.cjs": "af9ae108ff1f819163f2ad4e5b86c69b8cc01e606e4f888320412c81040a6a87",
+    "tests/test_full_archive.py": "61483982ada232c16a0c4a67b4983b899bf0b285ec0b73c8da1f51db75e9c840",
+    "tests/test_nov9_site.py": "e8dc2762c236acc4e791faa5410798c35988e29d2673a1ee6862992f61eb48e1",
+    "tests/nov7_expected.json": "c187c8a3afa1b341e3ccfbb18b197a6121e6cce22fefd61f63ded81587be5e2b",
+    "tests/test_nov10_cpi_revision.py": "ece76a4082b4e4ba380c159823b1a9a9a03efb35a027599b3d7b6d9dce2e5bff",
+    "tests/poll_browser_test.py": "62485b1be493b22e22de0dee95d37aa236135ff3191d55c5fa93d42e7b077019",
+    "tests/nov12_source_audit.json": "efe8a9945e706f5f8d76595c8caeb0580257b57f238f09ea6f31316ddd589ebd",
+    "tests/nov10_fixture_edits.json": "3dd449c0a944ded6b8fd780567de336269627be2c058302390daf0960c10f128",
+    "tests/test_nov7_site.py": "ef0510be36493d33018571d37bc061a3d9d62b74321ba44440fa7a33166f7d04",
+    "tests/nov8_expected.json": "7aa414e4fbeffa0bbff962595d3fc27dc680d964129a4445bb6c3273ed50961b",
+    "tests/nov9_expected.json": "c4702eee4ea631c732ea4a3ba0357f412c41ef644f80b50d05bbb745bfa6d7d9",
+    "tests/links_test.py": "3bd96cd04fe471f82f5e21d326e8a6f00a0d9b3f7047f7f26fc656178ef677c3",
+    "tests/nov9_fixture_edits.json": "08ebc3c88f8da21670ea1ff23acdb1d759954e7fdb47ba5b515336a77c07f740",
+    "tests/test_nov11_site.py": "9e279d439e6cfab6810e39622ade15f82ed580015a6e5b08f30f4641a3a9247d",
+    "tests/test_nov10_site.py": "e31d1f93e4786fdd62bcaac1ae9b0d815cc3d235aee4d246020e43264fca5104",
+    "tests/test_nov12_site.py": "27d19f03d630e4b21ab541930fde4f0136bca355b62c8aa8674621b531a8cdd1",
+    "email/2026-11-03/story-measles.png": "d534f9d7d20855fd71306d1daff46669bbe0d155901b3791e4ac2d54e5abc8ea",
+    "email/2026-11-03/story-ebike.png": "b457a160466e8aadf77c117e15df950d0a0b09fe5b2c8813902ecd9693e3be7a",
+    "email/2026-11-03/story-election.png": "f8743aea05f448b36b430ae58d8245567624ccbc3ec3db5d8ecc37898e380a6a",
+    "email/2026-11-03/story-chip.png": "4127fb1d89ce1169185be93478dc9b4374fc9d5c7d8ca66d6ff9d14498783dfc",
+    "email/2026-11-03/banner.gif": "c568efcc018d5e8913438ab2fbd68d553c47bc672487f141966b35176f327f6a"
+  },
+  "content": {
+    "date": "2026-11-04",
+    "brand": "factsfirstdaily",
+    "title": "Democrats Win Congress. 3M Reaches a PFAS Deal. Swift Falls. | November 4, 2026",
+    "subject": "Democrats Win Congress, Ending Unified GOP Control",
+    "preheader": "A PFAS settlement, Serbia's police arrests and Swift's final descent.",
+    "date_line": "Wednesday, November 4, 2026 · 6 min read",
+    "description": "Democrats win Congress, 3M reaches a PFAS settlement and NASA's Swift mission ends after 22 years.",
+    "stories": [
+      {
+        "label": "POLITICS",
+        "title": "Democrats Win Congress, Ending Unified Republican Control",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1603119761708-9252f043c139?w=1280&h=720&fit=crop&q=80",
+          "alt": "U.S. Capitol exterior and American flag, contextual file photo",
+          "source_url": "https://unsplash.com/photos/white-concrete-building-during-daytime-P8rgDtEFn7s",
+          "contextual_file_photo": true
+        },
+        "paragraphs": [
+          "Democrats won control of the House and Senate in Tuesday's midterm elections, <a href=\"https://apnews.com/article/midterm-elections-democrats-republicans-trump-b1d26390b7ed7968435089be6d3bf612\">The Associated Press reported Wednesday</a>. The result ends unified Republican control of Washington and sets up a different final two years for President Donald Trump's administration.",
+          "Democratic leaders outlined a <a href=\"https://apnews.com/article/midterm-elections-democrats-republicans-trump-b1d26390b7ed7968435089be6d3bf612\">100-day agenda focused on gas, groceries and healthcare costs</a>. They also prepared oversight and investigations of Trump and his administration, with impeachment among the possibilities discussed.",
+          "Trump acknowledged that the Iran war affected the election, <a href=\"https://apnews.com/article/midterm-elections-democrats-republicans-trump-b1d26390b7ed7968435089be6d3bf612\">AP reported</a>. He initially suggested he could work with Democrats, then threatened to veto their agenda. Vice President JD Vance also blamed the war for Republican losses.",
+          "<strong>Why it matters.</strong> <a href=\"https://apnews.com/article/midterm-elections-democrats-republicans-trump-b1d26390b7ed7968435089be6d3bf612\">The election changes the balance of power in Congress</a>. It does not settle every remaining race. AP's Wednesday report explicitly left Nevada's second congressional district uncalled despite the Democratic candidate declaring victory."
+        ]
+      },
+      {
+        "label": "HEALTH",
+        "title": "3M Agrees to a $7.35 Billion PFAS Settlement",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1534616042650-80f5c9b61f09?w=1280&h=720&fit=crop&q=80",
+          "alt": "A glass partly filled with water, contextual file photo",
+          "source_url": "https://unsplash.com/photos/clear-drinking-glass-filled-with-water-zFEY4DP4h6c",
+          "contextual_file_photo": true
+        },
+        "paragraphs": [
+          "3M agreed to pay up to $7.35 billion to settle claims over groundwater contamination, <a href=\"https://apnews.com/article/forever-chemical-water-pollution-pfas-classaction-6b314fb98100539f14e9c1c4a778c13c\">The Associated Press reported Wednesday</a>. The agreement covers people who say exposure to chemicals used in firefighting foam and other products made them sick.",
+          "The company announced the agreement Tuesday and <a href=\"https://apnews.com/article/forever-chemical-water-pollution-pfas-classaction-6b314fb98100539f14e9c1c4a778c13c\">did not admit liability</a>. Payments would extend over nine years and could reach as many as 120,000 people near military bases, airports and other affected locations.",
+          "The substances are known as PFAS and persist in the environment. <a href=\"https://apnews.com/article/forever-chemical-water-pollution-pfas-classaction-6b314fb98100539f14e9c1c4a778c13c\">AP reports links to liver and immune system damage and some cancers</a>. The chemicals also appear in clothing, cookware and other products designed to resist water or grease.",
+          "<strong>Why it matters.</strong> <a href=\"https://apnews.com/article/forever-chemical-water-pollution-pfas-classaction-6b314fb98100539f14e9c1c4a778c13c\">The settlement offers a route to compensation but remains conditional</a>. 3M could make additional payments if enough plaintiffs participate. Too few participants would allow it to cancel the agreement and continue litigation."
+        ]
+      },
+      {
+        "label": "WORLD",
+        "title": "Serbia Detains Officers Over Alleged Abuse of Protesters",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1632948871802-39173f6bd8d6?w=1280&h=720&fit=crop&q=80",
+          "alt": "Aerial view of Belgrade's Kalemegdan park, contextual file photo",
+          "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-park-with-trees-and-benches-XcPRyYuKqTA",
+          "contextual_file_photo": true
+        },
+        "paragraphs": [
+          "Serbian authorities detained nine serving police officers and one former officer Wednesday over alleged abuse of protesters. <a href=\"https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters\">Reuters, published by The Guardian, reports the interior ministry announcement</a>. The allegations concern detainees held during anti-corruption demonstrations in Belgrade last year.",
+          "The ministry said suspects from an elite unit <a href=\"https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters\">tortured and intimidated people inside a government compound garage</a>. The alleged incidents occurred Aug. 14 and 15, 2025. Authorities released initials rather than the suspects' full names.",
+          "The protests followed <a href=\"https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters\">a railway station canopy collapse that killed 16 people in Novi Sad</a>. Demonstrations continued through 2025 and 2026. The Student List defeated the Serbian Progressive Party in an Oct. 25 parliamentary election.",
+          "<strong>Why it matters.</strong> <a href=\"https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters\">These were the first major arrests linked to violence against protesters</a>, Reuters reported. Students and rights groups have accused former President Aleksandar Vucic's allies of political violence and corruption. Vucic and his allies deny those accusations."
+        ]
+      },
+      {
+        "label": "SCIENCE",
+        "title": "NASA's Swift Observatory Falls to Earth After 22 Years",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1634153851709-3be5a0c0f001?w=1280&h=720&fit=crop&q=80",
+          "alt": "An observatory beneath stars in Spain, contextual file photo",
+          "source_url": "https://unsplash.com/photos/a-large-telescope-on-top-of-a-hill-under-a-night-sky-filled-with-stars-DKXF7Y6VVg8",
+          "contextual_file_photo": true
+        },
+        "paragraphs": [
+          "NASA's Swift Observatory reentered Earth's atmosphere Wednesday, ending 22 years of observations, <a href=\"https://apnews.com/article/swift-observatory-telescope-hubble-5c19afdd7867dc88d68ea61dba1fbaee\">The Associated Press reported</a>. The U.S. Space Force confirmed the reentry near Indonesia. Intense solar activity had accelerated the spacecraft's orbital decline in recent years.",
+          "A private rescue effort <a href=\"https://apnews.com/article/swift-observatory-telescope-hubble-5c19afdd7867dc88d68ea61dba1fbaee\">failed after its robotic spacecraft encountered trouble following a July launch</a>. That craft fell back to Earth in September. NASA had hired Katalyst Space to attempt an orbit boost for Swift.",
+          "Swift launched in 2004 for a planned two-year mission studying gamma ray bursts and exploding stars. <a href=\"https://apnews.com/article/swift-observatory-telescope-hubble-5c19afdd7867dc88d68ea61dba1fbaee\">It observed thousands of those events</a>. Its rapid observations helped other telescopes identify targets for more detailed investigation.",
+          "<strong>Why it matters.</strong> <a href=\"https://apnews.com/article/swift-observatory-telescope-hubble-5c19afdd7867dc88d68ea61dba1fbaee\">NASA is also exploring options to rescue the Hubble Space Telescope</a>. Any such mission would need to happen by 2032. Scientists did not immediately know how much of Swift burned up during reentry."
+        ]
+      }
+    ],
+    "briefing": {
+      "World view": [
+        "<strong>Indonesia's deployment.</strong> Officials said more than 20,000 personnel were heading to Jakarta, <a href=\"https://apnews.com/article/indonesia-security-forces-deployment-wiretapping-8e598661a904d8af89b35ea04d420506\">AP reports</a>; authorities did not confirm a wiretapping-probe connection.",
+        "<strong>Spain's rail response.</strong> Transport Minister Oscar Puente announced his resignation Tuesday after a collision killed 69 people, <a href=\"https://apnews.com/article/spain-transport-minister-train-crash-159910e970f48f6a54e50cc7ea740403\">AP reports</a>."
+      ],
+      "Need to know": [
+        "<strong>Florida crash inquiry.</strong> Investigators found Learjet tail components nearly four miles from the crash site; the cause remained unknown, <a href=\"https://apnews.com/article/florida-learjet-ntsb-plane-crash-crater-greenacres-13ef25e011bcf5762005838726ee05bf\">AP reports</a>.",
+        "<strong>Abortion measures.</strong> Virginia and Nevada voters approved constitutional protections, while Missouri voters rejected a new abortion restriction proposal, <a href=\"https://apnews.com/article/ballot-issues-abortion-redistricting-transgender-fe17112e9538f5e4ed5907f6d1f5b470\">AP reports</a>."
+      ],
+      "Money & markets": [
+        "<strong>Wednesday's close.</strong> The S&P 500 rose 1.6%, the Dow gained 3% and the Nasdaq climbed 1.4%, <a href=\"https://apnews.com/article/stock-markets-ai-earnings-oil-4d12764c0b3ce38ffde3077712811182\">AP reports</a>.",
+        "<strong>Oil and bonds.</strong> Brent fell 8.7% to $94.62, while the 10-year Treasury yield fell to 4.88%, <a href=\"https://apnews.com/article/stock-markets-ai-earnings-oil-4d12764c0b3ce38ffde3077712811182\">AP reports</a>."
+      ],
+      "Future frontiers": [
+        "<strong>Classroom search.</strong> Google said schools rejecting its AI tools would also lose access to Google search, <a href=\"https://apnews.com/article/ai-schools-classroom-students-google-7ba4219e505db1c11d672f6eefe7155a\">AP reports</a>.",
+        "<strong>Monarch migration.</strong> Solar-powered tags on nearly 1,750 butterflies are helping researchers study migration routes, <a href=\"https://apnews.com/article/monarch-butterflies-migration-tracking-conservation-threats-437fd1b19ade1acc4dbb78fbcd12a699\">AP reports</a>."
+      ],
+      "The score": [
+        "<strong>Knicks beat Bulls.</strong> Jalen Brunson scored 33 points as New York won 135-105 on Wednesday night, <a href=\"https://apnews.com/article/bulls-knicks-score-54fb3ffd870567958a355b64f08017d8\">AP reports</a>.",
+        "<strong>NFL in Madrid.</strong> Atlanta began preparations at Real Madrid's training center Wednesday before Sunday's game against Cincinnati, <a href=\"https://apnews.com/article/nfl-madrid-atlanta-falcons-cincinnati-bengals-18e2fb5842d56f453ab9092c09312aca\">AP reports</a>."
+      ],
+      "Life & culture": [
+        "<strong>Tony Butala dies.</strong> The Lettermen co-founder died Sunday at 87; the group confirmed his death Tuesday, <a href=\"https://apnews.com/article/tony-butala-dies-lettermen-028f24604e6a4bcb34286f5576220210\">AP reports</a>.",
+        "<strong>Nonfiction prize.</strong> Edmund Richardson's \"Alexander: God, King, Man\" won the Baillie Gifford Prize in London Wednesday, <a href=\"https://apnews.com/article/baillie-gifford-book-prize-nonfiction-6ac87a87b081b1b52aaa919df1552fc5\">AP reports</a>."
+      ]
+    },
+    "deep_dive": {
+      "title": "Why Europe's Fridge Hacks Are a Warning for Connected Businesses",
+      "photo": {
+        "image_url": "https://images.unsplash.com/photo-1672363547647-8fad02572412?w=1280&h=720&fit=crop&q=80",
+        "alt": "Shelves in a U.S. retail store, contextual file photo",
+        "source_url": "https://unsplash.com/photos/a-grocery-store-aisle-filled-with-lots-of-food-F1TZZeZ4f4U",
+        "contextual_file_photo": true
+      },
+      "deep_labels": [
+        "What happened",
+        "The weak points",
+        "Why it matters",
+        "What comes next"
+      ],
+      "paragraphs": [
+        "European supermarkets reported refrigeration hacks that warmed food storage and caused costly spoilage, <a href=\"https://apnews.com/article/supermarkets-europe-internet-cyberattack-food-fridges-hacked-b6abfab3f5cdd65c19476b9032eb7a9d\">The Associated Press reported Tuesday</a>. Stores in at least six countries reported problems Monday. One Swedish supermarket said its equipment had been set to 50 degrees Celsius. An Athens butcher reported a separate temperature-control breach but said its meat was unaffected.",
+        "The attacks followed earlier incidents in France, Belgium and the Netherlands. <a href=\"https://apnews.com/article/supermarkets-europe-internet-cyberattack-food-fridges-hacked-b6abfab3f5cdd65c19476b9032eb7a9d\">French investigators identified problems with outdated remote-control equipment</a>. Manufacturer Danfoss said most affected systems were older products without continuing software or security updates. Copeland identified a vulnerability in discontinued controllers. Those details point to existing weaknesses, not proof of a sophisticated new technique.",
+        "Connected refrigeration lets stores monitor temperatures, receive warnings and arrange remote repairs. That convenience also creates access points that need protection. <a href=\"https://apnews.com/article/supermarkets-europe-internet-cyberattack-food-fridges-hacked-b6abfab3f5cdd65c19476b9032eb7a9d\">Britain’s National Cyber Security Center said French fridges were directly online with default passwords</a>. Cybersecurity specialists warned that businesses can neglect everyday operational equipment while investing in newer digital systems and artificial intelligence.",
+        "Investigators had not established who carried out the attacks or why. <a href=\"https://apnews.com/article/supermarkets-europe-internet-cyberattack-food-fridges-hacked-b6abfab3f5cdd65c19476b9032eb7a9d\">French authorities said they were coordinating protective measures and assisting potential victims</a>. British officials contacted organizations with exposed equipment. Experts interviewed by AP said there was no evidence AI powered these incidents. Attribution remained unresolved as European authorities investigated the breaches and their wider implications."
+      ]
+    },
+    "trivia": {
+      "question": "How long did NASA's Swift Observatory operate?",
+      "options": [
+        "Two years",
+        "10 years",
+        "22 years",
+        "35 years"
+      ],
+      "correct_letter": "C",
+      "explanation": "<strong>C. 22 years.</strong> <a href=\"https://apnews.com/article/swift-observatory-telescope-hubble-5c19afdd7867dc88d68ea61dba1fbaee\">AP reports Swift launched in 2004 and reentered the atmosphere Nov. 4, 2026</a>."
+    },
+    "poll": {
+      "slug": "retrospective-nov4-2026-congress-oversight",
+      "question": "Should the incoming Congress prioritize oversight of the administration?"
+    },
+    "notice": "Retrospective Edition · Covers November 4, 2026 · Added November 12, 2026.",
+    "cutoff": "2026-11-04T23:59:59-05:00",
+    "cutoff_explanation": "Reporting reflects the November 4 cutoff, not later developments.",
+    "publication_status": "LOCAL_ONLY_NOT_PUBLISHED"
+  },
+  "html_sha256": "837c1053542fb2f6515a4a673dd034de0442c047fe6a795a210f5351c9033a96",
+  "archive_insertion": "    {\"title\": \"Democrats Win Congress. 3M Reaches a PFAS Deal. Swift Falls. | November 4, 2026\", \"description\": \"Democrats win Congress, 3M reaches a PFAS settlement and NASA's Swift mission ends after 22 years.\", \"url\": \"https://factsfirstdaily.com/editions/2026-11-04.html\", \"date\": \"2026-11-04\", \"readingTime\": \"6 min read\", \"image\": \"https://images.unsplash.com/photo-1603119761708-9252f043c139?w=1280&h=720&fit=crop&q=80\"},\n",
+  "historical_evidence": {
+    "status": "PASS",
+    "edition_date": "2026-11-04",
+    "cutoff": "2026-11-05T04:59:59+00:00",
+    "historical_validation_is_separate": true,
+    "access_dates_not_backdated": true,
+    "source_count": 16,
+    "records": [
+      {
+        "url": "https://apnews.com/article/midterm-elections-democrats-republicans-trump-b1d26390b7ed7968435089be6d3bf612",
+        "source": "The Associated Press",
+        "authors": [
+          "The Associated Press; agency's own original page, no named individual author supplied"
+        ],
+        "publication_timestamp_raw": "2026-11-04T13:19:14",
+        "modified_timestamp_raw": "2026-11-05T01:06:09",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:02:17.172080+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-election-browser.html",
+          "sha256": "e34833bed18f343795970ccdaede8f3a76458694b4ba64bd76ddef37ae937e99"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-election-browser.txt",
+          "sha256": "135a409288290db377fb7c3d255e6d5aa4349a4d96efcc02d17b0bda168813f1"
+        },
+        "body_characters": 26366,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/forever-chemical-water-pollution-pfas-classaction-6b314fb98100539f14e9c1c4a778c13c",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/rebecca-boone"
+        ],
+        "publication_timestamp_raw": "2026-11-04T21:06:21",
+        "modified_timestamp_raw": "2026-11-04T21:06:40.068",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:02:47.950726+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-pfas-browser.html",
+          "sha256": "4e89d6afcb19690b37d36bbe94bc84bd1ecea86694408f90f5735bb677a9f6f8"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-pfas-browser.txt",
+          "sha256": "6369570f59b33d5a2a717c42a31bba0fe34e2643b61008aac96732fb2f875e00"
+        },
+        "body_characters": 2924,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/swift-observatory-telescope-hubble-5c19afdd7867dc88d68ea61dba1fbaee",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/marcia-dunn"
+        ],
+        "publication_timestamp_raw": "2026-11-04T19:41:38",
+        "modified_timestamp_raw": "2026-11-04T19:42:53.645",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:03:00.246502+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-swift-browser.html",
+          "sha256": "8c8028639543194f11b2c72b2351667e1863b6bceee2ea959133e505b8ad8caf"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-swift-browser.txt",
+          "sha256": "c67be6c408184951c85fe4dcd643e0de7ff288399c178362723711d8cea0e3f1"
+        },
+        "body_characters": 2205,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d12764c0b3ce38ffde3077712811182",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/stan-choe",
+          "https://apnews.com/author/david-mchugh"
+        ],
+        "publication_timestamp_raw": "2026-11-04T04:13:51",
+        "modified_timestamp_raw": "2026-11-04T21:52:39.972",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:03:43.566722+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-stocks-browser.html",
+          "sha256": "d4c657921a7e8b6844233c51d8251d70b81245d7643397478b2978eec0099088"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-stocks-browser.txt",
+          "sha256": "5e7003a9b767d0246689111ab1949e3aad5a629315d18ad2544df34312bcff4c"
+        },
+        "body_characters": 6463,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/ballot-issues-abortion-redistricting-transgender-fe17112e9538f5e4ed5907f6d1f5b470",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/david-a-lieb"
+        ],
+        "publication_timestamp_raw": "2026-11-03T05:23:38",
+        "modified_timestamp_raw": "2026-11-04T09:22:23.841",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:05:57.267126+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-0-browser.html",
+          "sha256": "3c2f2eb28197dc9d74704dd35656130038d815a55569ba3eaba2cece337e16e5"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-0-browser.txt",
+          "sha256": "2daf4573f801c2da5f57d3cdb2a9753ee0df922aaa0a1332c9c980504ebee491"
+        },
+        "body_characters": 8547,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/florida-learjet-ntsb-plane-crash-crater-greenacres-13ef25e011bcf5762005838726ee05bf",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/josh-funk"
+        ],
+        "publication_timestamp_raw": "2026-11-03T18:03:05",
+        "modified_timestamp_raw": "2026-11-04T06:54:42.437",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:06:09.816785+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-1-browser.html",
+          "sha256": "a9e56ca259d96098428f65635f86b6aa05b7ddb13ee002b14ced042d0445cb52"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-1-browser.txt",
+          "sha256": "b2720985e6a601689790261b64aaa66fe34b3a529e0bf20a5e65c37c3afb3733"
+        },
+        "body_characters": 6707,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/ai-schools-classroom-students-google-7ba4219e505db1c11d672f6eefe7155a",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/barbara-ortutay"
+        ],
+        "publication_timestamp_raw": "2026-11-03T21:07:26",
+        "modified_timestamp_raw": "2026-11-04T00:54:12.983",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:06:40.833065+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-2-browser.html",
+          "sha256": "09e0da28d178d30144768deda40dcad3a014b836529ec7b62057de17cbf249cc"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-2-browser.txt",
+          "sha256": "dc14a119e3af3c1015659ff0b3fcbb401000ffe4649a0b43e8047e4da277ec14"
+        },
+        "body_characters": 3669,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/supermarkets-europe-internet-cyberattack-food-fridges-hacked-b6abfab3f5cdd65c19476b9032eb7a9d",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/kelvin-chan",
+          "https://apnews.com/author/emma-burrows",
+          "https://apnews.com/author/menelaos-hadjicostis"
+        ],
+        "publication_timestamp_raw": "2026-11-03T18:00:59",
+        "modified_timestamp_raw": "2026-11-03T21:14:44.176",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:06:51.252433+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-3-browser.html",
+          "sha256": "f094d5121e3f64e490c376895824fd7bfb06abee99a37b6f1cd683235683e593"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-3-browser.txt",
+          "sha256": "aee1460cb24e04dcdc11a6e8b7bc03206fc38fc6a22d664abc7c5a3453f6ce76"
+        },
+        "body_characters": 6535,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/spain-transport-minister-train-crash-159910e970f48f6a54e50cc7ea740403",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/suman-naishadham"
+        ],
+        "publication_timestamp_raw": "2026-11-03T21:24:05",
+        "modified_timestamp_raw": "2026-11-03T21:47:56.487",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:07:21.794223+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-4-browser.html",
+          "sha256": "8acca8ec1fdf93f636a397a5c146db06ed5404cb7caad12b37d53ed87748b694"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-4-browser.txt",
+          "sha256": "cbb03a913c2eec3b3d7ee9a69604e911ae03d3d0ea593e53923fc7c9f5c6de5a"
+        },
+        "body_characters": 2035,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/indonesia-security-forces-deployment-wiretapping-8e598661a904d8af89b35ea04d420506",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/niniek-karmini"
+        ],
+        "publication_timestamp_raw": "2026-11-04T06:19:35",
+        "modified_timestamp_raw": "2026-11-04T13:10:55.596",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:08:24.311165+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-5-browser.html",
+          "sha256": "d1698ac6a892928b939be99f371b7b46f7b8c58397805af967f54c7330bbdb40"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-5-browser.txt",
+          "sha256": "86cd00bb8b24ddcf02fc98a7c5f79a30f7cb2b2ef6721986cb686c8c1ffecffb"
+        },
+        "body_characters": 6085,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/tony-butala-dies-lettermen-028f24604e6a4bcb34286f5576220210",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/maria-sherman"
+        ],
+        "publication_timestamp_raw": "2026-11-03T19:31:58",
+        "modified_timestamp_raw": "2026-11-03T21:45:12.244",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:09:29.276516+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-6-browser.html",
+          "sha256": "ed8dfb5b35d68b76364e0901d818ba327bb97c4d8cff6cfa1732c4dd9ff49290"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-6-browser.txt",
+          "sha256": "ad3297bd968428f3e4df3830bfbc24569b3618e8f84cd3f64019c449dd5f90b2"
+        },
+        "body_characters": 2871,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/monarch-butterflies-migration-tracking-conservation-threats-437fd1b19ade1acc4dbb78fbcd12a699",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/dorany-pineda"
+        ],
+        "publication_timestamp_raw": "2026-11-03T05:01:12",
+        "modified_timestamp_raw": "2026-11-03T21:30:35.549",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:09:52.415275+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-8-browser.html",
+          "sha256": "cb95050d8ede7913cfac6301e8a8dfad3c0c33306f9d27ad4499db8f9d0e5c17"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-8-browser.txt",
+          "sha256": "f330b84c2bf3ef017460b8cf43226ebf9c9be0f8dce7d36d155d62f3805603ce"
+        },
+        "body_characters": 7284,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/nfl-madrid-atlanta-falcons-cincinnati-bengals-18e2fb5842d56f453ab9092c09312aca",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/tales-azzoni"
+        ],
+        "publication_timestamp_raw": "2026-11-04T09:24:06",
+        "modified_timestamp_raw": "2026-11-04T15:18:27.025",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:10:23.564846+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-9-browser.html",
+          "sha256": "c8ea4013f5b021e2c6fe2e932ad3ed93b6003c96e2b885fe24b817eab37368c0"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-brief-9-browser.txt",
+          "sha256": "4a276e4327bb5a7112c65a86bf871648c7b0329899f94674e6da7a44f378b32d"
+        },
+        "body_characters": 3727,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/bulls-knicks-score-54fb3ffd870567958a355b64f08017d8",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/jeffrey-bernstein"
+        ],
+        "publication_timestamp_raw": "2026-11-05T03:14:32",
+        "modified_timestamp_raw": "2026-11-05T03:14:59.521",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:11:36.657051+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-knicks-browser.html",
+          "sha256": "0a063c856af3ea5b9827893e919b7b96ff3b1d5508f5a2844a8af32a0d9206ee"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-knicks-browser.txt",
+          "sha256": "0677d1b4651274b081a0aeb990a7992f0cfcfa05473117c5bf95f01cc9f2a0b4"
+        },
+        "body_characters": 1664,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://apnews.com/article/baillie-gifford-book-prize-nonfiction-6ac87a87b081b1b52aaa919df1552fc5",
+        "source": "The Associated Press",
+        "authors": [
+          "https://apnews.com/author/jill-lawless"
+        ],
+        "publication_timestamp_raw": "2026-11-04T22:15:59",
+        "modified_timestamp_raw": "2026-11-05T00:50:11.017",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:18:06.894283+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-book-prize-browser.html",
+          "sha256": "05d18da0cf595a6f6d16deb4d27f65284020f97e8a15372f2e4faad913778bec"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/ap-book-prize-browser.txt",
+          "sha256": "42b19900493d5b76f2301d18de7eb52dae03a8ae12fa4eb76df5bdeec3bf9c92"
+        },
+        "body_characters": 3317,
+        "historically_eligible": true,
+        "cited_in_review": true
+      },
+      {
+        "url": "https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters",
+        "source": "Reuters in Belgrade, published by The Guardian",
+        "authors": [
+          "Reuters in Belgrade"
+        ],
+        "publication_timestamp_raw": "2026-11-04T20:42:14.000Z",
+        "modified_timestamp_raw": "2026-11-04T20:42:14.000Z",
+        "timestamp_timezone": "UTC; AP JSON-LD datePublished explicitly ends Z; Guardian meta explicitly ends Z",
+        "opened_at": "2026-11-12T20:04:53.981184+00:00",
+        "cutoff": "2026-11-05T04:59:59+00:00",
+        "raw": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/guardian-serbia.html",
+          "sha256": "ca3e40f36602a89da066c5f974bd2715a251016e1da22716b1a3230604bdb6d2"
+        },
+        "readable": {
+          "path": "/work/data/new_lists_templates/archive-audit-2026-11-12/factsfirstdaily-repair/evidence/guardian-serbia.txt",
+          "sha256": "42d5bd93c64f4c957556fd28834df7b7d37aaf6c0abf4f07ca0dad969130053e"
+        },
+        "body_characters": 1891,
+        "historically_eligible": true,
+        "cited_in_review": true
+      }
+    ],
+    "photos": [
+      {
+        "name": "photo-capitol",
+        "url": "https://unsplash.com/photos/white-concrete-building-during-daytime-P8rgDtEFn7s",
+        "final_url": "https://unsplash.com/photos/white-concrete-building-during-daytime-P8rgDtEFn7s",
+        "opened_at": "2026-11-12T20:13:20.473980+00:00",
+        "raw_sha256": "f97e7079a5f7c0f2fe6d1ec6247115a1b4e3d7c6a6b2f1df449c8542f501ca8f",
+        "readable_sha256": "3667c7210920ef98dcaf895914cea128f65978406020570df93a0cac8ceae598",
+        "image_url": "https://images.unsplash.com/photo-1603119761708-9252f043c139?w=1280&h=720&fit=crop&q=80",
+        "image_status": 200,
+        "image_sha256": "033011e86bb5529a35003a882d9e664738c13b022a0996f32cf1c74e57e44243",
+        "visual_inspection": "ACTUALLY_INSPECTED_ORIGINAL_1280x720; real contextual file photograph, not a current-event image",
+        "license_status": "FREE_UNSPLASH_LICENSE_ORIGINAL_PAGE_AND_GENERAL_COMMERCIAL_GRANT_OPENED",
+        "prior_same_brand_live_reuse": []
+      },
+      {
+        "name": "photo-water",
+        "url": "https://unsplash.com/photos/clear-drinking-glass-filled-with-water-zFEY4DP4h6c",
+        "final_url": "https://unsplash.com/photos/clear-drinking-glass-filled-with-water-zFEY4DP4h6c",
+        "opened_at": "2026-11-12T20:07:09.747768+00:00",
+        "raw_sha256": "d6afaa718dcbed8600dd010f5df56e77265ed3c7c77610537e5d7329f005b743",
+        "readable_sha256": "565ba8a7c83154d1d3a6166ba201b17f6b91ec77e1d6283671c351602ae3f090",
+        "image_url": "https://images.unsplash.com/photo-1534616042650-80f5c9b61f09?w=1280&h=720&fit=crop&q=80",
+        "image_status": 200,
+        "image_sha256": "64d56e47d496adb786a4e0f45fde05df2a82471a5c3bbb0b69b7bc3591c75815",
+        "visual_inspection": "ACTUALLY_INSPECTED_ORIGINAL_1280x720; real contextual file photograph, not a current-event image",
+        "license_status": "FREE_UNSPLASH_LICENSE_ORIGINAL_PAGE_AND_GENERAL_COMMERCIAL_GRANT_OPENED",
+        "prior_same_brand_live_reuse": []
+      },
+      {
+        "name": "photo-telescope",
+        "url": "https://unsplash.com/photos/a-large-telescope-on-top-of-a-hill-under-a-night-sky-filled-with-stars-DKXF7Y6VVg8",
+        "final_url": "https://unsplash.com/photos/a-large-telescope-on-top-of-a-hill-under-a-night-sky-filled-with-stars-DKXF7Y6VVg8",
+        "opened_at": "2026-11-12T20:07:11.710548+00:00",
+        "raw_sha256": "b88f734adc7701cf248edcc6551707875d5e9ec0e112c249b6a39a5314633d47",
+        "readable_sha256": "52abcf6e40aac9c96ccf1e603c02fd148d563446ff79a15659f264b37bdc4386",
+        "image_url": "https://images.unsplash.com/photo-1634153851709-3be5a0c0f001?w=1280&h=720&fit=crop&q=80",
+        "image_status": 200,
+        "image_sha256": "12dcbf25b6f01f0dfb847c5c410885563578758f32e37c992bc0b0646ce65e0e",
+        "visual_inspection": "ACTUALLY_INSPECTED_ORIGINAL_1280x720; real contextual file photograph, not a current-event image",
+        "license_status": "FREE_UNSPLASH_LICENSE_ORIGINAL_PAGE_AND_GENERAL_COMMERCIAL_GRANT_OPENED",
+        "prior_same_brand_live_reuse": []
+      },
+      {
+        "name": "photo-belgrade",
+        "url": "https://unsplash.com/photos/an-aerial-view-of-a-park-with-trees-and-benches-XcPRyYuKqTA",
+        "final_url": "https://unsplash.com/photos/an-aerial-view-of-a-park-with-trees-and-benches-XcPRyYuKqTA",
+        "opened_at": "2026-11-12T20:07:14.603804+00:00",
+        "raw_sha256": "7029a0a5ce5371c70a2efa2ed808cf7e2ef044989e4aaa8d48dc3947594c5a09",
+        "readable_sha256": "a4a218bddc1fa7d4bc78f099326c833690dbaa24f4937080259d3a63aae5f735",
+        "image_url": "https://images.unsplash.com/photo-1632948871802-39173f6bd8d6?w=1280&h=720&fit=crop&q=80",
+        "image_status": 200,
+        "image_sha256": "edec96e31afeafb2647e65897d966d7de8be72d21a90510de814d769a51f8a25",
+        "visual_inspection": "ACTUALLY_INSPECTED_ORIGINAL_1280x720; real contextual file photograph, not a current-event image",
+        "license_status": "FREE_UNSPLASH_LICENSE_ORIGINAL_PAGE_AND_GENERAL_COMMERCIAL_GRANT_OPENED",
+        "prior_same_brand_live_reuse": []
+      },
+      {
+        "name": "photo-supermarket",
+        "url": "https://unsplash.com/photos/a-grocery-store-aisle-filled-with-lots-of-food-F1TZZeZ4f4U",
+        "final_url": "https://unsplash.com/photos/a-grocery-store-aisle-filled-with-lots-of-food-F1TZZeZ4f4U",
+        "opened_at": "2026-11-12T20:07:17.305707+00:00",
+        "raw_sha256": "a60c5fb4d1693c753adc67899801613d97d7a633e7d09e7037dc130f39807b6a",
+        "readable_sha256": "96d36812c7ba0aed910827bb865d85f99fd7c530694178afa294620385a40271",
+        "image_url": "https://images.unsplash.com/photo-1672363547647-8fad02572412?w=1280&h=720&fit=crop&q=80",
+        "image_status": 200,
+        "image_sha256": "b40fcec5c386a04ba55e930688cf0b70f7c8554e4a6866d32da02808a963b861",
+        "visual_inspection": "ACTUALLY_INSPECTED_ORIGINAL_1280x720; real contextual file photograph, not a current-event image",
+        "license_status": "FREE_UNSPLASH_LICENSE_ORIGINAL_PAGE_AND_GENERAL_COMMERCIAL_GRANT_OPENED",
+        "prior_same_brand_live_reuse": []
+      },
+      {
+        "name": "photo-license",
+        "url": "https://unsplash.com/license",
+        "final_url": "https://unsplash.com/license",
+        "opened_at": "2026-11-12T20:07:19.928776+00:00",
+        "raw_sha256": "0ab9441e9b802ae851a985a4440c6198c9705ee9dbe4027691ea3833e3763f0d",
+        "readable_sha256": "38aa9577cc096b489d27ba55821400a9abb8494c580a813fbb1a5164010edb40"
+      }
+    ],
+    "excluded_candidates": [
+      {
+        "name": "AP Morning Wire",
+        "reason": "Modified Nov10; discovery only, not final fact support."
+      },
+      {
+        "name": "AP Israel government formation",
+        "reason": "Modified Nov5 05:39 UTC, 40 minutes beyond cutoff."
+      },
+      {
+        "name": "Guardian Israel/Ebola/South Africa",
+        "reason": "Opened pages modified Nov11; excluded without historical version."
+      },
+      {
+        "name": "Reuters congressional overview",
+        "reason": "Parent identified Nov5 update; no archived historical body used."
+      }
+    ]
+  }
+}
