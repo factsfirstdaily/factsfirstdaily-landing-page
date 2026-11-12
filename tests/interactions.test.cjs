@@ -75,9 +75,9 @@ const homeScript = [...home.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)].at
 const config = vm.runInNewContext(homeScript.slice(0, homeScript.indexOf('function isPublicHttps')) + '\nSITE_CONFIG;');
 assert.equal(config.editions[0].date, '2026-11-12');
 assert.equal(config.editions[0].url, 'https://factsfirstdaily.com/editions/2026-11-12.html');
-assert.equal(config.editions.length, 11);
+assert.equal(config.editions.length, 12);
 for (const entry of config.editions) assert.ok(fs.existsSync(new URL(entry.url).pathname.slice(1)));
 assert.equal(config.mailerliteFormAction, 'https://assets.mailerlite.com/jsonp/2756267/forms/203044673267173156/subscribe');
 assert.equal(config.mailerliteSignupUrl, '');
 assert.equal(config.privacyPolicyUrl, 'https://factsfirstdaily.com/privacy.html');
-console.log(`PASS: ${cases} trivia scenarios; homepage configuration and all 11 edition destinations. No requests made.`);
+console.log(`PASS: ${cases} trivia scenarios; homepage configuration and all 12 edition destinations. No requests made.`);

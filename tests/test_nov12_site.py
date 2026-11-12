@@ -14,7 +14,8 @@ class Nov12(unittest.TestCase):
  def test_scope_and_history(self):
   allowed={"index.html","editions/index.html","editions/2026-11-11.html",
    "editions/2026-11-12.html","tests/nov12_expected.json","tests/test_nov12_site.py",
-   "tests/interactions.test.cjs","tests/links_test.py","tests/nov12_source_audit.json"}
+   "tests/interactions.test.cjs","tests/links_test.py","tests/nov12_source_audit.json",
+   "editions/2026-11-04.html","tests/nov4_retrospective_expected.json","tests/test_nov4_retrospective.py","tests/test_nov12_site.py"}
   now={str(p.relative_to(R)):sha(p) for p in R.rglob("*") if p.is_file() and not any(x in p.parts for x in (".git","__pycache__"))}
   self.assertTrue(set(E["baseline"])<=set(now))
   self.assertEqual({n for n,d in now.items() if E["baseline"].get(n)!=d},allowed)
@@ -40,13 +41,16 @@ class Nov12(unittest.TestCase):
  def test_home_archive_exact_preservation(self):
   for rel in ("index.html","editions/index.html"):
    raw=(R/rel).read_text();cfg=config(raw)
-   self.assertEqual(len(cfg["editions"]),11)
+   self.assertEqual(len(cfg["editions"]),12)
    self.assertEqual(cfg["editions"][0]["date"],"2026-11-12")
    self.assertEqual(cfg["editions"][0]["title"],C["title"])
    self.assertEqual(cfg["editions"][0]["description"],C["description"])
    self.assertEqual(cfg["editions"][0]["image"],soup("editions/2026-11-12.html").select_one("article.story img")["src"])
    # Strip only the inserted data card and known latest-link update; then
    # every original byte (signup, legal, footer, scripts, history) must match.
+   nov4=json.loads((R/"tests/nov4_retrospective_expected.json").read_text())["archive_insertion"]
+   self.assertEqual(raw.count(nov4),1)
+   raw=raw.replace(nov4,"",1)
    m=re.search(r"const SITE_CONFIG\s*=\s*(\{.*?\});",raw,re.S)
    pos=raw.index("[",m.start(1)+m[1].index("editions"))
    card=json.dumps(cfg["editions"][0],ensure_ascii=False)
