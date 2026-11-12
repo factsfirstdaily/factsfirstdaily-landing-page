@@ -14,7 +14,7 @@ class Nov12(unittest.TestCase):
  def test_scope_and_history(self):
   allowed={"index.html","editions/index.html","editions/2026-11-11.html",
    "editions/2026-11-12.html","tests/nov12_expected.json","tests/test_nov12_site.py",
-   "tests/interactions.test.cjs","tests/links_test.py"}
+   "tests/interactions.test.cjs","tests/links_test.py","tests/nov12_source_audit.json"}
   now={str(p.relative_to(R)):sha(p) for p in R.rglob("*") if p.is_file() and not any(x in p.parts for x in (".git","__pycache__"))}
   self.assertTrue(set(E["baseline"])<=set(now))
   self.assertEqual({n for n,d in now.items() if E["baseline"].get(n)!=d},allowed)
@@ -89,4 +89,33 @@ class Nov12(unittest.TestCase):
    for script in doc.select("script:not([src])"):
     result=subprocess.run(["node","--check"],input=script.get_text(),capture_output=True,text=True)
     self.assertEqual(result.returncode,0,(p,result.stderr))
+
+class Nov12SourcePolicy(unittest.TestCase):
+ def test_all_final_reporting_sources_exactly_audited(self):
+  audit=json.loads((R/"tests/nov12_source_audit.json").read_text())
+  self.assertEqual(sha(R/"tests/nov12_source_audit.json"),E["source_audit_sha256"])
+  self.assertEqual(audit["status"],"PASS");self.assertFalse(audit["unapproved_final_urls"])
+  chunks=[]
+  for row in C["stories"]+[C["deep_dive"]]:chunks.extend(row["paragraphs"])
+  for rows in C["briefing"].values():chunks.extend(rows)
+  chunks.append(C["trivia"]["explanation"])
+  urls={a["href"] for a in BeautifulSoup(" ".join(chunks),"html.parser").select("a[href]")}
+  records={row["url"]:row for row in audit["records"]}
+  self.assertEqual(urls,set(records));self.assertEqual(len(urls),23)
+  direct=wire=0
+  for row in records.values():
+   self.assertEqual(row["status"],200);self.assertGreater(row["body_characters"],500)
+   self.assertTrue(row["reader_citation_slots"])
+   for key in ("evidence","raw_evidence"):self.assertRegex(row[key]["sha256"],r"^[a-f0-9]{64}$")
+   if row["classification"]=="FULL_WIRE_SYNDICATION_EXPLICITLY_VERIFIED":
+    wire+=1;self.assertIn(row["approved_original_publisher"],("Reuters","Bloomberg","AP"));self.assertTrue(row["syndication_proof_exact_quotes"])
+   else:
+    direct+=1;self.assertEqual(row["classification"],"DIRECT_APPROVED_OUTLET")
+  self.assertEqual((direct,wire),(17,6))
+ def test_fresh_corrections_and_unchanged_poll(self):
+  doc=soup("editions/2026-11-12.html");text=doc.get_text(" ",strip=True)
+  self.assertIn("eight people dead and 17 hurt",text);self.assertIn("7:36 a.m. ET",text)
+  self.assertIn("10th in-person meeting",text)
+  self.assertEqual(C["poll"],{"question":"Should Nvidia's board replace Jensen Huang as CEO?","slug":"nov12-2026-nvidia-huang-ceo"})
+
 if __name__=="__main__":unittest.main(verbosity=2)

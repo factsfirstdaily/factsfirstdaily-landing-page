@@ -1,0 +1,727 @@
+{
+  "status": "PASS",
+  "edition": "2026-11-12",
+  "brand": "factsfirstdaily",
+  "binding_allowed_original_publishers": [
+    "AP",
+    "Reuters",
+    "BBC",
+    "CBS",
+    "NBC",
+    "ABC",
+    "CNN",
+    "Bloomberg",
+    "CNBC",
+    "WSJ",
+    "NYT",
+    "Washington Post",
+    "Politico",
+    "Axios",
+    "Time",
+    "Forbes",
+    "The Guardian",
+    "Al Jazeera",
+    "NPR"
+  ],
+  "scope": "All final article paragraphs, briefing items and trivia explanation; photo/license links are not news reporting.",
+  "unique_final_reporting_urls": 23,
+  "direct_outlet_urls": 17,
+  "explicit_full_wire_syndications": 6,
+  "unapproved_final_urls": [],
+  "records": [
+    {
+      "url": "https://abc7ny.com/live-updates/brooklyn-building-collapse-live-updates-1-dead-flatbush/20034152/",
+      "approved_original_publisher": "ABC (WABC/ABC7 New York)",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "abc7ny.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:48.164462+00:00",
+      "published_at": "2026-11-12T12:36:29Z",
+      "title": "Brooklyn building collapse: 8 dead, 17 injured in Flatbush - ABC7 New York",
+      "body_characters": 3001,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "article-3.paragraph-1",
+          "reader_attribution": "ABC7 reported eight people dead and 17 hurt as of 7:36 a.m. ET Thursday"
+        },
+        {
+          "slot": "article-3.paragraph-2",
+          "reader_attribution": "It fell into an open construction site next door"
+        },
+        {
+          "slot": "article-3.paragraph-4",
+          "reader_attribution": "Inspectors are checking nearby buildings while crews search the rubble"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/9aac868bcfdc6c71.json",
+        "sha256": "18b301ba784a1bfca00cd271cc47789c5bc5ba6762c57238329b181f5370b804"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/9aac868bcfdc6c71.html",
+        "sha256": "3f1e910a52f99dacdaf8249a56400d13ce4bb8da11d713452e10e348a4a8421a"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://live.euronext.com/en/financial-news/fed-officials-open-door-quicker-round-rate-hikes-inflation-worsens",
+      "approved_original_publisher": "Reuters",
+      "classification": "FULL_WIRE_SYNDICATION_EXPLICITLY_VERIFIED",
+      "host": "live.euronext.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:48.162093+00:00",
+      "published_at": "2026-11-11T06:50:51+00:00",
+      "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens | live",
+      "body_characters": 11058,
+      "syndication_proof_exact_quotes": [
+        "ion worsens Wed 11/11/2026 - 07:50 By Howard Schneider and Ann Saphir WASHINGTON, Nov 10 (Reuters) - The odds that the Feder",
+        "By Howard Schneider and Ann Saphir WASHINGTON, Nov 10 (Reuters) - The odds that the Federal Reserve may raise interest",
+        "flation is the right move for us.\" (Reporting by Howard Schneider and Ann Saphir; Editing by Andrea Ricci, Paul Simao and Jamie Freed) Find it fast Looking for more insights? Explore our ot"
+      ],
+      "reader_citation_slots": [
+        {
+          "slot": "article-2.paragraph-2",
+          "reader_attribution": "Reuters reports that core consumer prices rose 0.3% in October for a third straight month"
+        },
+        {
+          "slot": "article-2.paragraph-4",
+          "reader_attribution": "Dallas Fed President Lorie Logan said the current 3.75% to 4.00% policy rate is too low"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/e8a8cb8e785d222b.json",
+        "sha256": "49b094f300fca4e0ee7c07047265f83a24e03029ebf8f47181b0c7722f86c0e9"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/e8a8cb8e785d222b.html",
+        "sha256": "f291c2c7227a406db430e4253e009b45016fd80b624421fb163da0972d2acb3c"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://radiousa.com/2026/11/12/euclid-mission-data-release-spans-more-than-900-million-galaxies/",
+      "approved_original_publisher": "Reuters",
+      "classification": "FULL_WIRE_SYNDICATION_EXPLICITLY_VERIFIED",
+      "host": "radiousa.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:46.712323+00:00",
+      "published_at": "2026-11-12T11:06:22+00:00",
+      "title": "Euclid mission data release spans more than 900 million galaxies | 99.9 Radio USA",
+      "body_characters": 5959,
+      "syndication_proof_exact_quotes": [
+        "ans more than 900 million galaxies By Thomson Reuters Nov 12, 2026 | 5:06 AM By Will Dunham Nov 12 (Reuters)",
+        "son Reuters Nov 12, 2026 | 5:06 AM By Will Dunham Nov 12 (Reuters) – The European Space Agency has released its first big",
+        "13 billion years ago,” Lines said. (Reporting by Will ​Dunham in Washington; Editing by Daniel Wallis) Comments Leave a Reply Cancel reply You must be logged"
+      ],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.Future frontiers.1",
+          "reader_attribution": "Reuters, via Radio USA, reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/cd02d40d8bf1a2ca.json",
+        "sha256": "a27b26deeb109ee65ec85b022070b35731ed8dcc2aa5339499ca88426412203f"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/cd02d40d8bf1a2ca.html",
+        "sha256": "1031450da97e4ab2a0a4b3be7ebdc94cf25982f586be26640b3708f78e3fce8c"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://theprint.in/world/us-envoys-go-to-kremlin-for-talks-with-putin-on-ukraine/3097101/",
+      "approved_original_publisher": "Reuters",
+      "classification": "FULL_WIRE_SYNDICATION_EXPLICITLY_VERIFIED",
+      "host": "theprint.in",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:46.725836+00:00",
+      "published_at": "2026-11-12T12:00:03+00:00",
+      "title": "US envoys go to Kremlin for talks with Putin on Ukraine – ThePrint – ReutersFeed",
+      "body_characters": 7758,
+      "syndication_proof_exact_quotes": [
+        " LinkedIn WhatsApp Email Copy Link (c) Copyright Thomson Reuters 2026 Stay updated with ThePrint: Preferred Source Google Di",
+        ": Preferred Source Google Discover By Andrew Osborn MOSCOW, Nov 12 (Reuters) – US envoys Steve Witkoff and Jared Kushner arrived at",
+        "use in which Ukraine might re-arm. (Reporting by Reuters, Writing by Andrew Osborn, Editing by Timothy Heritage) Disclaimer: This report is auto generated from the Reu",
+        "g by Timothy Heritage) Disclaimer: This report is auto generated from the Reuters news service. ThePrint holds no responsibility for its content. Sub"
+      ],
+      "reader_citation_slots": [
+        {
+          "slot": "article-4.paragraph-1",
+          "reader_attribution": "Reuters, via ThePrint, reports this is Witkoff's 10th in-person meeting with Putin"
+        },
+        {
+          "slot": "article-4.paragraph-2",
+          "reader_attribution": "Reuters reports the sides agreed on a major prisoner exchange in the coming weeks"
+        },
+        {
+          "slot": "article-4.paragraph-4",
+          "reader_attribution": "Reuters reports Kyiv rejects Putin's demand to surrender the whole eastern Donbas region"
+        },
+        {
+          "slot": "trivia.explanation",
+          "reader_attribution": "Reuters, via ThePrint, reports that Thursday's negotiations mark Witkoff's 10th in-person meeting with Putin"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/ddb69182e38db65b.json",
+        "sha256": "2ac53b5a1494a517dd2a4d80d59a5a706acbb928c93d7c7de6a8bfdb1b5780ec"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/ddb69182e38db65b.html",
+        "sha256": "4835e807da6bcf781baa838cb3aeb609bfa4fb9c48a21fa4042d7e2ce51f32e4"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met",
+      "approved_original_publisher": "Al Jazeera",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.aljazeera.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:48.869799+00:00",
+      "published_at": "2026-11-11T08:21:56Z",
+      "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met | US-Israel war on Iran News | Al Jazeera",
+      "body_characters": 4257,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "article-5.paragraph-4",
+          "reader_attribution": "Al Jazeera reports that Secretary of State Marco Rubio says economic pressure makes major combat operations unnecessary"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/eb0b7564d09b8bc4.json",
+        "sha256": "7a2c72d6a05ab3d16caeab106c170b2a4507f4aa810ad6c60200be4112aa2ba5"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/eb0b7564d09b8bc4.html",
+        "sha256": "df64b78a8c72e31d42829263066ea911ac099013f376a99ce45c6465ebb7cdaf"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
+      "approved_original_publisher": "Al Jazeera",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.aljazeera.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:48.864406+00:00",
+      "published_at": "2026-11-12T03:50:42Z",
+      "title": "Iran warns of expanded retaliation as Israel reportedly readies to attack | US-Israel war on Iran News | Al Jazeera",
+      "body_characters": 5509,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "article-5.paragraph-1",
+          "reader_attribution": "Al Jazeera reports that public broadcaster KAN said the directives could lead to activities that trigger a war"
+        },
+        {
+          "slot": "article-5.paragraph-2",
+          "reader_attribution": "Al Jazeera reports that Netanyahu's coalition lost its parliamentary majority in October's elections"
+        },
+        {
+          "slot": "article-5.paragraph-3",
+          "reader_attribution": "Security chief Mohsen Rezaei said every base involved in a new U.S. attack, from West Asia to Europe, would be a target"
+        },
+        {
+          "slot": "article-5.paragraph-4",
+          "reader_attribution": "Trump says he is prepared to resume the war if a Qatar-led diplomatic track fails"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/01650aa08e02991a.json",
+        "sha256": "18404a9ea12f739a7b708bf3fe37517263d7beee49986f94a30b8fb3200e88aa"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/01650aa08e02991a.html",
+        "sha256": "3f66db841a3b32587b965f9ef0b94c35bb116a296e3a475c02e9951f3d8b7afa"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/11/12/why-the-us-mexico-and-guatemala-may-lose-their-measles-free-status",
+      "approved_original_publisher": "Al Jazeera",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.aljazeera.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:48.160259+00:00",
+      "published_at": "2026-11-12T00:33:44Z",
+      "title": "Why the US, Mexico and Guatemala may lose their measles-free status | World Health Organization News | Al Jazeera",
+      "body_characters": 6408,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.Need to know.2",
+          "reader_attribution": "Al Jazeera report"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/ba61612274549f83.json",
+        "sha256": "c8897d90576fc45e47308d74b0ed1edc51e60a5739e1cb89c104efb239947e7e"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/ba61612274549f83.html",
+        "sha256": "5e6805ae2bff3619a9ad6fbe8f17f3ee83fd525796e13e803e8162b79e1cd19a"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/c3qj5lnee5n0o",
+      "approved_original_publisher": "BBC",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.bbc.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:46.723538+00:00",
+      "published_at": "2026-11-12T11:30:31.974Z",
+      "title": "King Charles appears on Sir Elton John's radio show ",
+      "body_characters": 4905,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.Life & culture.1",
+          "reader_attribution": "BBC News reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/fd5e4bfc8169b2bf.json",
+        "sha256": "9fcf8dcba05b05982bef5cd5c71b1fbf14e9aac168ee3709e55a32f9a8d81142"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/fd5e4bfc8169b2bf.html",
+        "sha256": "18476fd9a12296d961539e13bbf0fb39bf200d37b9f2df3844c404c8aa822944"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/cjr4g0n9d1g5o",
+      "approved_original_publisher": "BBC",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.bbc.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:46.730340+00:00",
+      "published_at": "2026-11-11T10:53:47.253Z",
+      "title": "Coachella 2027: Dua Lipa set to be first female British headliner",
+      "body_characters": 5317,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.Life & culture.2",
+          "reader_attribution": "BBC News reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/2bb2818e73ecd181.json",
+        "sha256": "311730de2ba26c722f305375fe9f1101cb3b5d7b4eed53b5929975d434db42a6"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/2bb2818e73ecd181.html",
+        "sha256": "a66ea23c49e8440e79068fe62fedaf0ba25c1081b080cf0155b04c86f2252772"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/ckzd9p7e4eqeo",
+      "approved_original_publisher": "BBC",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.bbc.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:46.731302+00:00",
+      "published_at": "2026-11-12T03:32:54.799Z",
+      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+      "body_characters": 9284,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.World view.1",
+          "reader_attribution": "BBC reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/d32c8b1a31f4f536.json",
+        "sha256": "aefa3272564d8c7770c0dc6ff2f4a949075be8f87083284ef1e48ac757388aaf"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/d32c8b1a31f4f536.html",
+        "sha256": "45d15602fc4d5931169fe063349f5d824727c60ac1ba3b391d89ddce4280537b"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/cwe9kzv0g0v7o",
+      "approved_original_publisher": "BBC",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.bbc.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:46.732922+00:00",
+      "published_at": "2026-11-11T12:53:11.448Z",
+      "title": "Kenya's Ebola outbreak: Last patient discharged as countdown begins to be being declared free of the virus",
+      "body_characters": 7527,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.World view.2",
+          "reader_attribution": "BBC News reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/3736813332389fc6.json",
+        "sha256": "a2fcc662230e61f1ecbfbc4f7e49ba1529483588d2db932099bebb6361207840"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/3736813332389fc6.html",
+        "sha256": "7248a6d9a65123e536f7e229c5ba7b182c18fbc78f043c691a7cf3762491db2f"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/cwrkgmymk55zo",
+      "approved_original_publisher": "BBC",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.bbc.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:48.165590+00:00",
+      "published_at": "2026-11-12T10:08:38.974Z",
+      "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+      "body_characters": 6219,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "article-4.paragraph-3",
+          "reader_attribution": "BBC News reports the envoys are expected to fly to Dublin to meet Ukrainian President Volodymyr Zelensky"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/4db0b59d611f64b2.json",
+        "sha256": "2f06b6ebac3ed1989597b4e7068ec3d3236197c7a055eb18c69c9b855e9892ee"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/4db0b59d611f64b2.html",
+        "sha256": "9abadd41f5b92849313e67637958670af992e3ee4c1301d4ec4cf6b678f100b9"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.business-standard.com/world-news/who-are-the-10-nvidia-board-members-who-will-decide-jensen-huang-s-future-126111200747_1.html",
+      "approved_original_publisher": "Bloomberg",
+      "classification": "FULL_WIRE_SYNDICATION_EXPLICITLY_VERIFIED",
+      "host": "www.business-standard.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:48.869131+00:00",
+      "published_at": "2026-11-12T14:02:34+05:30",
+      "title": "Who are the 10 Nvidia board members who will decide Jensen Huang's future? | World News - Business Standard",
+      "body_characters": 6764,
+      "syndication_proof_exact_quotes": [
+        "alleged affairs | Image: Bloomberg Bloomberg 5 min read Last Updated : Nov 12 2026 | 2:02 PM IST Listen to Thi",
+        "2:02 PM IST Listen to This Article By Newley Purnell and Mark Anderson Nvidia Corp.’s board of directors is meeting to discus",
+        "ile searching for a permanent one, Bloomberg News has reported. Keeping Huang in the role would likely subject Nvidia"
+      ],
+      "reader_citation_slots": [
+        {
+          "slot": "article-1.paragraph-3",
+          "reader_attribution": "Bloomberg reports that the board is working with an outside firm to identify potential replacements"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/dd8ea1e1d937d5ac.json",
+        "sha256": "0489cb3781837ac4a5917a426b81caca927c022bd1c4f1f9c708fdde0de5e8ff"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/dd8ea1e1d937d5ac.html",
+        "sha256": "9b34dd15cf3b800ec7eb8bdd10d9eca9eada5c799237e096485c267a5cca1662"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.cbsnews.com/newyork/news/brooklyn-building-collapse-construction/",
+      "approved_original_publisher": "CBS",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.cbsnews.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:50.002369+00:00",
+      "published_at": "2026-11-11T23:50:59-0500",
+      "title": "\n    A construction project was happening next to the site of the Brooklyn building collapse. Here's what we know. - CBS New York",
+      "body_characters": 3928,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "article-3.paragraph-3",
+          "reader_attribution": "CBS New York reports that workers were doing excavation at the neighboring lot when the collapse occurred"
+        },
+        {
+          "slot": "article-3.paragraph-4",
+          "reader_attribution": "CBS New York reports that the Department of Buildings is still investigating"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/0244390aebec7a99.json",
+        "sha256": "ecb1d83d2e19d27e8a692c1a21a2fd853943627bd7cc0f3fc16331028fbd796a"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/0244390aebec7a99.html",
+        "sha256": "4abb43b05f70d1a2816fb3f0cbeb0f2b4a4c50a4c1efa0e781ff6348cf1a461e"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html",
+      "approved_original_publisher": "CNBC",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.cnbc.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:50.003806+00:00",
+      "published_at": "2026-11-11T14:20:01+0000",
+      "title": "CoreWeave CEO cancels planned share sale program",
+      "body_characters": 4576,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.Money & markets.1",
+          "reader_attribution": "CNBC reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/6bcd9b6f16151715.json",
+        "sha256": "38a9622f06f6ec6951133c6e98dfc35ef4825467f29b8884e2b01bce02af9415"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/6bcd9b6f16151715.html",
+        "sha256": "fbb0a90448aced0698ce3bbd88d8cdf93ce073480586f4181c8f8ba9a507594b"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html",
+      "approved_original_publisher": "CNBC",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.cnbc.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:41:06.690857+00:00",
+      "published_at": "2026-11-11T18:05:23+0000",
+      "title": "Meta head of infrastructure will depart, succeeded by former AWS exec",
+      "body_characters": 3362,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.Future frontiers.2",
+          "reader_attribution": "CNBC reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/2f980c8780326061.json",
+        "sha256": "d7241262e756fd3240e7570a92f29d7f65cd13dec12037111dfe7722c0e4d243"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/2f980c8780326061.html",
+        "sha256": "ac4dfa7f8fc9ae0319bfcab19d7dc632102e4e64ee15a4ac96fab141a48edd0c"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/12/dollar-near-one-month-high-as-yen-edges-toward-160-.html",
+      "approved_original_publisher": "CNBC",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.cnbc.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:50.001691+00:00",
+      "published_at": "2026-11-12T01:43:14+0000",
+      "title": "Dollar almost unchanged after reaching 19-month high, rate divergence in focus",
+      "body_characters": 4078,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "article-2.paragraph-3",
+          "reader_attribution": "CNBC reports that the dollar touched its highest level in about 19 months"
+        },
+        {
+          "slot": "briefing.Money & markets.2",
+          "reader_attribution": "CNBC reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/23ab498adfd6f46f.json",
+        "sha256": "d95585f9f650a790a9dbf8446a8a2f7648c836a78800e4b00be65435bae8ed91"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/23ab498adfd6f46f.html",
+        "sha256": "c8d6e782c2d6e23f768fa5cd884d2949b8512fd32eba44d52e60a0b94a897078"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+      "approved_original_publisher": "CNBC",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.cnbc.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:50.000827+00:00",
+      "published_at": "2026-11-12T07:38:45+0000",
+      "title": "Treasury yields rise as investors await inflation and housing data",
+      "body_characters": 1896,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "article-2.paragraph-1",
+          "reader_attribution": "CNBC reported the 10-year Treasury yield at about 5.01% in its 2:38 a.m. ET report"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/fcc1837fc6e71e20.json",
+        "sha256": "ac60e0817609eac861aeaa827add0f8c4eec857e1842b3a3bef7fc3c21270011"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/fcc1837fc6e71e20.html",
+        "sha256": "7ab13d2558e2350b5609fb8375bdc4de54aba1afcf1d27ab99ef41abf9a10106"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.news-herald.com/2026/11/11/james-harden-scores-a-season-high-32-points-as-the-cavaliers-beat-the-knicks-115-107/",
+      "approved_original_publisher": "AP",
+      "classification": "FULL_WIRE_SYNDICATION_EXPLICITLY_VERIFIED",
+      "host": "www.news-herald.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:49.447525+00:00",
+      "published_at": "2026-11-12T03:31:05+00:00",
+      "title": "James Harden scores season-high 32 points as Cavaliers beat Knicks, 115-107 – News-Herald",
+      "body_characters": 4723,
+      "syndication_proof_exact_quotes": [
+        "AP Photo/Frank Franklin II) Expand By Associated Press PUBLISHED: November 11, 2026 at 10:31 PM EST | UPDATED",
+        "your Trinity Audio player ready... By BRIAN MAHONEY NEW YORK — James Harden scored a season-high 32 points",
+        "o player ready... By BRIAN MAHONEY NEW YORK — James Harden scored a season-high 32 points, more than double his average during a tough start to "
+      ],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.The score.1",
+          "reader_attribution": "AP, via the News-Herald, reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/4cbbd253ea421031.json",
+        "sha256": "ced34e3f2e458916e9f683830f3af93a96b17c837bc44b8cd7533a119eaa3826"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/4cbbd253ea421031.html",
+        "sha256": "4c4bb855e4b028bff45faa5608bb3bb0534d2627da5779fd9505b514435f1e1d"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.rte.ie/news/business/2026/1112/1598921-nvidia-board-meets-to-decide-ceo-huangs-future/",
+      "approved_original_publisher": "Reuters",
+      "classification": "FULL_WIRE_SYNDICATION_EXPLICITLY_VERIFIED",
+      "host": "www.rte.ie",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:49.613828+00:00",
+      "published_at": "2026-11-12T08:06:40+00:00",
+      "title": "Nvidia board meets to decide CEO Huang's future",
+      "body_characters": 5842,
+      "syndication_proof_exact_quotes": [
+        "y technology US World Jensen Huang Source: Reuters Who would be next CEO at Nvidia? Top engineer and CFO ",
+        " whether to oust CEO Jensen Huang, a source familiar with the matter told Reuters, as the world's dominant supplier of AI chips grapples",
+        "y respond to requests for comment. Reuters could not immediately verify the report. Market fallout US stock futures sank, with Nasdaq fut"
+      ],
+      "reader_citation_slots": [
+        {
+          "slot": "article-1.paragraph-1",
+          "reader_attribution": "Reuters, via RTE, reports that directors met after reports of two extramarital affairs"
+        },
+        {
+          "slot": "article-1.paragraph-4",
+          "reader_attribution": "Reuters reports that Huang has no obvious successor and owns about 3.6% of Nvidia's shares"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/0374b3c2f38b683d.json",
+        "sha256": "9319cf4eda7bf141c54aeb43303b9026a589bb077752f46ce3a72856e6962b10"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/0374b3c2f38b683d.html",
+        "sha256": "a5724c4085f8c86f371cf08d23645b2403d28f52d517f74948ca33a00fe32a2a"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/nov/12/michael-carrick-sacked-manchester-united-mauricio-pochettino",
+      "approved_original_publisher": "The Guardian",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.theguardian.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:49.993505+00:00",
+      "published_at": "2026-11-12T10:28:13.000Z",
+      "title": "Michael Carrick sacked by Manchester United with Pochettino poised to take over | Manchester United | The Guardian",
+      "body_characters": 4422,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.The score.2",
+          "reader_attribution": "The Guardian reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/570584802f16d7c8.json",
+        "sha256": "d00b3966c99cfdf3b56a7fbd2455fce6a7a5157405b81f4509ec7b0d643e6d01"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/570584802f16d7c8.html",
+        "sha256": "b4990822cc7f3eeb88e4a29bfe5c75d377b0df4a461739b382f1b558e523fdd3"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
+      "approved_original_publisher": "The Guardian",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.theguardian.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:49.616640+00:00",
+      "published_at": "2026-11-11T13:05:57.000Z",
+      "title": "Molecular signal in blood helps detect early risk for ovarian cancer, study finds | Ovarian cancer | The Guardian",
+      "body_characters": 2719,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "briefing.Need to know.1",
+          "reader_attribution": "The Guardian reports"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/44a304747829d412.json",
+        "sha256": "90b1f88a30e034193afd16de23d88d81928a96eeac6d7584f27fa59e579a4e72"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/44a304747829d412.html",
+        "sha256": "7ae2bf381629644a508fda8dce5bb6e2feb93d101e7b383e5877b89da16c2402"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    },
+    {
+      "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "approved_original_publisher": "The Guardian",
+      "classification": "DIRECT_APPROVED_OUTLET",
+      "host": "www.theguardian.com",
+      "status": 200,
+      "opened_at": "2026-11-12T12:38:50.404777+00:00",
+      "published_at": "2026-11-12T12:25:59.000Z",
+      "title": "Nvidia board reportedly meets to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live | Nvidia | The Guardian",
+      "body_characters": 24252,
+      "syndication_proof_exact_quotes": [],
+      "reader_citation_slots": [
+        {
+          "slot": "article-1.paragraph-2",
+          "reader_attribution": "The Guardian reports that Nvidia shares fell about 8% after the bell on Wednesday"
+        }
+      ],
+      "evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/c20da2f52115f645.json",
+        "sha256": "8572feb08424b10ab3e602ca717cf4b5a0bc0c9104081d8c64db47fa9314acdf"
+      },
+      "raw_evidence": {
+        "path": "/__modal/volumes/vo-QtUW3t9HvUnRQ2h190F2AL/data/new_lists_templates/daily/2026-11-12/ffd-reviewed-release-v2/sources/c20da2f52115f645.html",
+        "sha256": "f9eb35b424f4d80539da451b2624901d8de68230ba3b71f6e06e040c6c387361"
+      },
+      "claim_support_review": "Editor read full opened captured reporting. Final copy adjusted to support, with no search-only support."
+    }
+  ]
+}
