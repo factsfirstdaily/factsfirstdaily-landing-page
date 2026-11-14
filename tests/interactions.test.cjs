@@ -73,11 +73,11 @@ const home = fs.readFileSync('index.html', 'utf8');
 const homeScript = [...home.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)].at(-1)[1];
 // Evaluate configuration only: deliberately never invoke signup/submit handlers.
 const config = vm.runInNewContext(homeScript.slice(0, homeScript.indexOf('function isPublicHttps')) + '\nSITE_CONFIG;');
-assert.equal(config.editions[0].date, '2026-11-13');
-assert.equal(config.editions[0].url, 'https://factsfirstdaily.com/editions/2026-11-13.html');
-assert.equal(config.editions.length, 13);
+assert.equal(config.editions[0].date, '2026-11-14');
+assert.equal(config.editions[0].url, 'https://factsfirstdaily.com/editions/2026-11-14.html');
+assert.equal(config.editions.length, 14);
 for (const entry of config.editions) assert.ok(fs.existsSync(new URL(entry.url).pathname.slice(1)));
 assert.equal(config.mailerliteFormAction, 'https://assets.mailerlite.com/jsonp/2756267/forms/203044673267173156/subscribe');
 assert.equal(config.mailerliteSignupUrl, '');
 assert.equal(config.privacyPolicyUrl, 'https://factsfirstdaily.com/privacy.html');
-console.log(`PASS: ${cases} trivia scenarios; homepage configuration and all 13 edition destinations. No requests made.`);
+console.log(`PASS: ${cases} trivia scenarios; homepage configuration and all 14 edition destinations. No requests made.`);
