@@ -1,0 +1,109 @@
+{
+  "brand": "ffd",
+  "source_sha256": "712502a3be4c1a1c0aba302e8b408eb4542ae6426bec62b75639107e0e4705a6",
+  "content_sha256": "882a17d2f2b126147178fda65b3d21e34ad98c28f17357155d32da41099a0aa0",
+  "lead_photo": "https://images.unsplash.com/photo-1658958327132-a80f8a9409fb?fm=jpg&fit=crop&w=1280&h=720&q=80",
+  "base_hashes": {
+    "CNAME": "dc2ca368e657045ae82eafdfd58e0e9af518dfbef02ad03992bbdd7e75df83ca",
+    "index.html": "6a605c74e6c68992478d00d01bb7ffb5e3796d20cf1ac17f64910e9f042e421c",
+    "privacy.html": "e159d9c6ef57f9d4da9637566978c173aeca46e30070d28813bfb169ff861982",
+    "email/polls.js": "2e7b0884adaabac31227d7c1846e3296437095f16250ad26323e3fd60c2ec178",
+    "email/thanks.html": "fcaf14742a86ec079bae62ddad9be86a88bab52e21fe20c52d250bc5e13728bf",
+    "editions/edition.css": "529107c9ce2a0686f6884faee895e4bfc4f370c003f123db126b587e1dca9b30",
+    "editions/2026-11-09.html": "11bb293d899b6803fdd049541a9f1169710446408703f4513fcc3fae58e917ad",
+    "editions/thanks.html": "fcaf14742a86ec079bae62ddad9be86a88bab52e21fe20c52d250bc5e13728bf",
+    "editions/index.html": "0e615731f0cabbaf07bc8dcc007d0dd635484913c33c2fa682da296f6c7ccf28",
+    "editions/2026-11-12.html": "407a304647777c0d8567ea33f876c77d98e6e1cc0ed05f31c9e72c59fe9ffa38",
+    "editions/2026-11-13.html": "5b8068aef42c88ce5db2352a66dae9f4f63225d404c8d7c89037d42289e8d8f0",
+    "editions/2026-11-10.html": "1b1ecbd992bef0f85843475f3036a28f017510e93f7371e6ec7ff608b218438a",
+    "editions/2026-11-11.html": "16e90132e6109feb7b2cccf86190ab20ef3bee75dd1fa2739b35480a79869a36",
+    "editions/2026-11-08.html": "19dace8b122cab46c72835490191c2cadc794e417b90611f8d0076a0b69239b0",
+    "editions/2026-11-04.html": "837c1053542fb2f6515a4a673dd034de0442c047fe6a795a210f5351c9033a96",
+    "editions/2026-11-06.html": "2f8c8e3a54915ee0c48626b51d53d87037498473703274c70bca9add9e434535",
+    "editions/2026-11-15.html": "953bd63445f108703cf154643ea49825368ac1e5d7cdb5bed03be173c80a6554",
+    "editions/2026-11-03.html": "474ab4a8040d3effbcd21c66e6efb6425313c8d0775c907c0f97dc194302c5e7",
+    "editions/2026-11-14.html": "c4842207444d3704665b0e81f86b94c4411b1a1687952a544f268515a6a10a4f",
+    "editions/2026-11-02.html": "5dd6397f8c0807613e570914e685e9279a4cd8f372d3a770f1fa45ea7af4f47a",
+    "editions/2026-11-16.html": "61524d9319c9e0190b7b4766cf60b4efc33cb02d5644a4e7aa986b007d735d52",
+    "editions/2026-11-07.html": "540c17729860419fab6903f74052cd1f15aed9efa1d247ad6c6f494859db3a9d",
+    "editions/2026-11-05.html": "4d4062806101a2db041aef0e4faf1f50f36e07fdf46ce996dfa55e0397b73a42",
+    "editions/2026-11-01.html": "cec9d87219e7ea79efbb085193a0616ef004bd8b5ccd0ce3d99478414088f321",
+    "tests/nov8_fixture_edits.json": "3d70394bfcde36411301edc89b0b7bb83e6efa9a90931ba085a59d60d80fa061",
+    "tests/test_nov13_site.py": "5f9a31e21cf47d3a68c106ae49cece131d711145af9f450c96ec8dfe104577c2",
+    "tests/nov11_expected.json": "5fb9322068b323f9b327977bdb907d94a5555955828e9f6b6c148da0339c77fb",
+    "tests/test_nov15_site.py": "c09990fa69806de3dee4b9a781a4db6e385197399a76dfe17b00308fabdf3d4e",
+    "tests/test_nov8_site.py": "f23cbd5ebf189e353656fb3f151a33fca7973a977e0253c413dd6a8848a3b969",
+    "tests/nov10_expected.json": "96d41ad2ed867c5dfafde40a342cb296651b9c272c4b877e2b036d4709c870f9",
+    "tests/nov10_cpi_revision.json": "cdf76864c0c5a34d613a719db58dd1252da4adea50ee6802d23ddf3d3e8d8c12",
+    "tests/nov12_expected.json": "a57d4e95f95f8842bdcc727de6cbb1ba38bbbaef148abdf44f0f36611fbd3f77",
+    "tests/interactions.test.cjs": "ad6c59d53ef8346c5a133a2e0b77068953a50ff25919125a7ccf18a5e13bd3f6",
+    "tests/nov13_expected.json": "a3e3033cb0e365ca72fa073bf3d8189951b7cf7bb43c1dd036ee5d907a474b30",
+    "tests/test_full_archive.py": "61483982ada232c16a0c4a67b4983b899bf0b285ec0b73c8da1f51db75e9c840",
+    "tests/test_nov14_site.py": "1a8388e4744086e9f0b987730ddb37386aa4991b54b67e6873a7446a563669c9",
+    "tests/test_nov9_site.py": "e8dc2762c236acc4e791faa5410798c35988e29d2673a1ee6862992f61eb48e1",
+    "tests/nov7_expected.json": "c187c8a3afa1b341e3ccfbb18b197a6121e6cce22fefd61f63ded81587be5e2b",
+    "tests/test_nov10_cpi_revision.py": "ece76a4082b4e4ba380c159823b1a9a9a03efb35a027599b3d7b6d9dce2e5bff",
+    "tests/poll_browser_test.py": "62485b1be493b22e22de0dee95d37aa236135ff3191d55c5fa93d42e7b077019",
+    "tests/nov12_source_audit.json": "efe8a9945e706f5f8d76595c8caeb0580257b57f238f09ea6f31316ddd589ebd",
+    "tests/nov10_fixture_edits.json": "3dd449c0a944ded6b8fd780567de336269627be2c058302390daf0960c10f128",
+    "tests/test_nov7_site.py": "ef0510be36493d33018571d37bc061a3d9d62b74321ba44440fa7a33166f7d04",
+    "tests/nov16_expected.json": "a644c4e8d6cf0856d8149502f88250d8bd4e443dabe76e548d4778cdb086e192",
+    "tests/nov8_expected.json": "7aa414e4fbeffa0bbff962595d3fc27dc680d964129a4445bb6c3273ed50961b",
+    "tests/nov14_expected.json": "b53bf2f93943480e9c4ce0aa5e1f1d4364675e27a23b26a2d253ea383e45ed81",
+    "tests/nov9_expected.json": "c4702eee4ea631c732ea4a3ba0357f412c41ef644f80b50d05bbb745bfa6d7d9",
+    "tests/links_test.py": "908bae0c089b20f6949aec53a9f6f272c8104f6b1356ee6d1463e3d1fba4f1e1",
+    "tests/nov9_fixture_edits.json": "08ebc3c88f8da21670ea1ff23acdb1d759954e7fdb47ba5b515336a77c07f740",
+    "tests/test_nov11_site.py": "9e279d439e6cfab6810e39622ade15f82ed580015a6e5b08f30f4641a3a9247d",
+    "tests/test_nov4_retrospective.py": "c1daa12c60a3a2d69aff164caf9434d6a7744e9e0b627be59479b6c8aca9cd61",
+    "tests/test_nov10_site.py": "e31d1f93e4786fdd62bcaac1ae9b0d815cc3d235aee4d246020e43264fca5104",
+    "tests/test_nov12_site.py": "1e865ed4ab7e1c08431f36d169ed4b1eb3a83c6916bdb3cc34a2d274492532e1",
+    "tests/test_nov16_site.py": "8b28f89a999b2825ecb17debd1910e5746f63f018da02c236020b7d50945ab2d",
+    "tests/nov4_retrospective_expected.json": "767fba30869e22d5e131761f441b4b8272095da6acb646bd2ba9f918a6a0c3e0",
+    "tests/nov15_expected.json": "6d3ea4beeb5011ebbc65951ac9783d2a358954e5c3a6d36e4e9f6342655c7ed3",
+    "email/2026-11-03/story-measles.png": "d534f9d7d20855fd71306d1daff46669bbe0d155901b3791e4ac2d54e5abc8ea",
+    "email/2026-11-03/story-ebike.png": "b457a160466e8aadf77c117e15df950d0a0b09fe5b2c8813902ecd9693e3be7a",
+    "email/2026-11-03/story-election.png": "f8743aea05f448b36b430ae58d8245567624ccbc3ec3db5d8ecc37898e380a6a",
+    "email/2026-11-03/story-chip.png": "4127fb1d89ce1169185be93478dc9b4374fc9d5c7d8ca66d6ff9d14498783dfc",
+    "email/2026-11-03/banner.gif": "c568efcc018d5e8913438ab2fbd68d553c47bc672487f141966b35176f327f6a"
+  },
+  "pages": {
+    "index.html": [
+      {
+        "label": "approved dated metadata/navigation/shared-latest maintenance",
+        "before": "ly.com/privacy.html\",\n  termsUrl: \"\",\n  archiveUrl: \"\",\n  editions: [{\"title\": \"Anthropic Heads Into Its IPO Week.\\nA Senator Presses Lutnick on AI Chips.\\nYeme",
+        "after": "ly.com/privacy.html\",\n  termsUrl: \"\",\n  archiveUrl: \"\",\n  editions: [{\"title\": \"The Supreme Court Rebuffs Trump on Research Grants.\\nTrump Meets Quad Allies in Manila.\\nA Crimean Bridge Span Falls After a Ukraine Strike.\", \"description\": \"Two Supreme Court orders, Trump's Quad meeting in Manila, a bank outage and a European deportation plan for Rwanda.\", \"url\": \"https://factsfirstdaily.com/editions/2026-11-17.html\", \"date\": \"2026-11-17\", \"readingTime\": \"6 min read\", \"image\": \"https://images.unsplash.com/photo-1658958327132-a80f8a9409fb?fm=jpg&fit=crop&w=1280&h=720&q=80\"},{\"title\": \"Anthropic Heads Into Its IPO Week.\\nA Senator Presses Lutnick on AI Chips.\\nYeme"
+      }
+    ],
+    "editions/index.html": [
+      {
+        "label": "approved dated metadata/navigation/shared-latest maintenance",
+        "before": "ly.com/privacy.html\",\n  termsUrl: \"\",\n  archiveUrl: \"\",\n  editions: [{\"title\": \"Anthropic Heads Into Its IPO Week.\\nA Senator Presses Lutnick on AI Chips.\\nYeme",
+        "after": "ly.com/privacy.html\",\n  termsUrl: \"\",\n  archiveUrl: \"\",\n  editions: [{\"title\": \"The Supreme Court Rebuffs Trump on Research Grants.\\nTrump Meets Quad Allies in Manila.\\nA Crimean Bridge Span Falls After a Ukraine Strike.\", \"description\": \"Two Supreme Court orders, Trump's Quad meeting in Manila, a bank outage and a European deportation plan for Rwanda.\", \"url\": \"https://factsfirstdaily.com/editions/2026-11-17.html\", \"date\": \"2026-11-17\", \"readingTime\": \"6 min read\", \"image\": \"https://images.unsplash.com/photo-1658958327132-a80f8a9409fb?fm=jpg&fit=crop&w=1280&h=720&q=80\"},{\"title\": \"Anthropic Heads Into Its IPO Week.\\nA Senator Presses Lutnick on AI Chips.\\nYeme"
+      }
+    ],
+    "editions/2026-11-16.html": [
+      {
+        "label": "approved dated metadata/navigation/shared-latest maintenance",
+        "before": "f=\"2026-11-15.html\">← Previous edition</a><a href=\"/#editions\">All editions</a></nav>\n<footer class=\"ff-foot\"><div class=\"ff-in\"><a aria-label=\"Facts First Dail",
+        "after": "f=\"2026-11-15.html\">← Previous edition</a><a href=\"/#editions\">All editions</a><a href=\"2026-11-17.html\">Next edition →</a></nav>\n<footer class=\"ff-foot\"><div class=\"ff-in\"><a aria-label=\"Facts First Dail"
+      }
+    ]
+  },
+  "new_page_edits": [
+    {
+      "selector": "nav.nav",
+      "before": "<nav aria-label=\"Edition navigation\" class=\"nav\"><a href=\"2026-11-15.html\">← Previous edition</a><a href=\"/#editions\">All editions</a></nav>",
+      "after": "<nav aria-label=\"Edition navigation\" class=\"nav\"><a href=\"2026-11-16.html\">← Previous edition</a><a href=\"/#editions\">All editions</a></nav>"
+    },
+    {
+      "selector": "meta[property=\"og:image\"]",
+      "before": "<meta content=\"https://images.unsplash.com/photo-1559445368-b8a993676d7a?fm=jpg&amp;fit=crop&amp;w=1280&amp;h=720&amp;q=80\" property=\"og:image\"/>",
+      "after": "<meta content=\"https://images.unsplash.com/photo-1658958327132-a80f8a9409fb?fm=jpg&amp;fit=crop&amp;w=1280&amp;h=720&amp;q=80\" property=\"og:image\"/>"
+    },
+    {
+      "selector": "nav.nav",
+      "before": "<nav aria-label=\"Edition navigation\" class=\"nav\"><a href=\"2026-11-15.html\">← Previous edition</a><a href=\"/#editions\">All editions</a></nav>",
+      "after": "<nav aria-label=\"Edition navigation\" class=\"nav\"><a href=\"2026-11-15.html\">← Previous edition</a><a href=\"/#editions\">All editions</a><a href=\"2026-11-17.html\">Next edition →</a></nav>"
+    }
+  ]
+}

@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 R=Path(__file__).resolve().parents[1]
 E=json.loads((R/"tests/nov16_expected.json").read_text());C=E["content"]
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
-def soup(p):return BeautifulSoup((R/p).read_text(),"html.parser")
+from nov17_compat import restore_nov17
+def soup(p):return BeautifulSoup(restore_nov17((R/p).read_text(),p),"html.parser")
 def config(raw):
  m=re.search(r"const SITE_CONFIG\s*=\s*(\{.*?\});",raw,re.S);assert m
  return json.loads(subprocess.check_output(["node","-e","process.stdout.write(JSON.stringify(("+m[1]+")))"],text=True))
@@ -15,13 +16,13 @@ class Nov16(unittest.TestCase):
   allowed={"index.html","editions/index.html","editions/2026-11-15.html",
    "editions/2026-11-16.html","tests/nov16_expected.json","tests/test_nov16_site.py",
    "tests/interactions.test.cjs","tests/links_test.py"}
-  now={str(p.relative_to(R)):sha(p) for p in R.rglob("*") if p.is_file() and not any(x in p.parts for x in (".git","__pycache__"))}
+  now={str(p.relative_to(R)):hashlib.sha256((restore_nov17(p.read_text(),str(p.relative_to(R))).encode() if p.suffix==".html" else p.read_bytes())).hexdigest() for p in R.rglob("*") if p.is_file() and not any(x in p.parts for x in (".git","__pycache__")) and str(p.relative_to(R)) not in {'tests/nov17_compat.py', 'docs/nov17-2026/approved-web-source.txt', 'docs/nov17-2026/approved-content.json', 'tests/test_nov17_site.py', 'tests/nov17_maintenance.json', 'docs/nov17-2026/old-rows.json', 'editions/2026-11-17.html'}}
   self.assertTrue(set(E["baseline"])<=set(now))
   self.assertEqual({n for n,d in now.items() if E["baseline"].get(n)!=d},allowed)
   old=soup("editions/2026-11-15.html");nav=old.select_one("nav.nav")
   self.assertIsNotNone(nav.find("a",href="2026-11-16.html"))
   # The prior edition changes navigation only; exact raw editorial bytes pinned.
-  raw=(R/"editions/2026-11-15.html").read_text()
+  raw=restore_nov17((R/"editions/2026-11-15.html").read_text(),"editions/2026-11-15.html")
   nav_raw=str(nav);nav.find("a",href="2026-11-16.html").decompose()
   restored=raw.replace(nav_raw,str(nav))
   self.assertEqual(hashlib.sha256(restored.encode()).hexdigest(),E["baseline"]["editions/2026-11-15.html"])
@@ -42,7 +43,7 @@ class Nov16(unittest.TestCase):
   self.assertNotIn("Part 1",str(current))
  def test_home_archive_exact_preservation(self):
   for rel in ("index.html","editions/index.html"):
-   raw=(R/rel).read_text();cfg=config(raw)
+   raw=restore_nov17((R/rel).read_text(),rel);cfg=config(raw)
    self.assertEqual(len(cfg["editions"]),16)
    self.assertEqual(cfg["editions"][0]["date"],"2026-11-16")
    self.assertEqual(cfg["editions"][0]["title"],C["title"])
